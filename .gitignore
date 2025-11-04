@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Distribution / build files
+dist/
+build/
+*.whl
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.pytest_cache/
+
+# IDE-specific files
+.idea/  # IntelliJ IDEA / PyCharm
+.vscode/ # VS Code
+*.iml   # IntelliJ IDEA module files
+*.suo   # Visual Studio solution user options
+*.user  # Visual Studio user options
+*.bak   # Backup files
+
+# OS-specific files
+.DS_Store # macOS
+Thumbs.db # Windows
+desktop.ini # Windows
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Database files
+*.sqlite3
+*.db
+
+# Environment variables
+.env
