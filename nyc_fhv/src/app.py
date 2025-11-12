@@ -37,11 +37,8 @@ def main():
         load_pandas(df, engine)
 
     elif configuration.TRANSFORM_ENGINE == "duckdb":
-
-        con = duckdb.connect(database=":memory:")
-        table_name = "fhv_data"
-
-        con.execute(f"CREATE TABLE {table_name} AS SELECT * FROM read_csv_auto('data/{configuration.FILE_NAME}')")
+    
+        con, table_name = extract_duckdb(f"data/{configuration.FILE_NAME}")
 
         con, table_name = transform_duckdb(con, table_name)
 
@@ -49,9 +46,8 @@ def main():
         print("Columns after transform:", df_preview.columns.tolist())
         print("Preview of transformed data:")
         print(df_preview)
-
-        # Load
-        load_duckdb(con, table_name, engine)
+ 
+        load_duckdb(con, table_name, table_name)
 
 
 

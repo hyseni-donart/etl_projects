@@ -28,14 +28,13 @@ def extract_pandas(file_name: str) -> pd.DataFrame: # simple extract function
     return pd.read_csv(f"data/{file_name}", low_memory=False)
 
 
-def extract_duckdb(con, table_name: str, file_name: str):
-    """Load CSV into DuckDB table in memory."""
-    con.execute(
-        f"""
-        CREATE TABLE {table_name} AS
-        SELECT * FROM read_csv_auto('data/{file_name}')
-        """
-    )
+def extract_duckdb(file_path: str, table_name: str = "fhv_data"):
+    """
+    Extract CSV into DuckDB in-memory table.
+    Returns: DuckDB connection and table name.
+    """
+    con = duckdb.connect(database=":memory:")
+    con.execute(f"CREATE TABLE {table_name} AS SELECT * FROM read_csv_auto('{file_path}')")
     return con, table_name
 
 
@@ -73,10 +72,6 @@ def load_duckdb(con, table_name: str, engine):
         INSERT INTO postgres_db.public.{table_name}
         SELECT * FROM {table_name};
     """)
-
-    print(f"✅ Successfully loaded data into PostgreSQL ({table_name}).")
-
-
 
 
 #PANDAS--------------------------------------------------------------------------------------
