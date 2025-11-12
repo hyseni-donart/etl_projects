@@ -69,81 +69,61 @@ def add_days_until_expiration_pandas(df: pd.DataFrame) -> pd.DataFrame:
 #-------------------------------------------------------------------------------------------
 #---------- DUCKDB --------------------------------------------------------------------------
 
-def create_duckdb_table(df, table_name: str):
+def create_duckdb_table(con, df, table_name: str):
     """Register a Pandas DataFrame as a DuckDB table in-memory."""
-
-    duckdb.register(table_name, df)
-
+    con.register(table_name, df)
     return table_name
 
 
-def standardize_column_names_duckdb(table_name: str):
-    """Standardize column names -> all lowercase, spaces replaced with underscores."""
-
-    columns = duckdb.sql(f"DESCRIBE {table_name}").fetchdf()['column_name'].tolist()
-
+def standardize_column_names_duckdb(con, table_name: str):
+    columns = con.execute(f"DESCRIBE {table_name}").fetchdf()['column_name'].tolist()
     rename_columns = [f'"{col}" AS "{col.lower().replace(" ", "_")}"' for col in columns]
-
     new_table_name = f"{table_name}_std"
-
-    duckdb.sql(f"CREATE OR REPLACE TABLE {new_table_name} AS SELECT {', '.join(rename_columns)} FROM {table_name}")
-
+    con.execute(f"CREATE OR REPLACE TABLE {new_table_name} AS SELECT {', '.join(rename_columns)} FROM {table_name}")
     return new_table_name
 
-def convert_expiration_date_duckdb(table_name: str):
+
+def convert_expiration_date_duckdb(con, table_name: str):
     """Convert `expiration_date` column to a proper datetime type."""
-
+    
     new_table = f"{table_name}_date"
-
-    duckdb.sql(f"""
+    
+    con.execute(f"""
         CREATE OR REPLACE TABLE {new_table} AS
         SELECT
             vehicle_license_number,
             license_type,
             dmv_license_plate_number,
             vehicle_vin_number,
-            STRPTIME(expiration_date, '%m/%d/%Y') AS expiration_date,
+            STRPTIME(CAST(expiration_date AS VARCHAR), '%Y-%m-%d') AS expiration_date,
             wheelchair_accessible,
             active
         FROM {table_name}
     """)
-
+    
     return new_table
 
 
-def trim_text_columns_duckdb(table_name: str):
-    """Trim whitespace from all `STRING` columns."""
-
-    columns_info = duckdb.sql(f"DESCRIBE {table_name}").fetchdf()
-
+def trim_text_columns_duckdb(con, table_name: str):
+    columns_info = con.execute(f"DESCRIBE {table_name}").fetchdf()
     string_cols = columns_info[columns_info['column_type'] == 'VARCHAR']['column_name'].tolist()
-
     select_columns = [f"TRIM({col}) AS {col}" if col in string_cols else col for col in columns_info['column_name']]
-
     new_table = f"{table_name}_trimmed"
-
-    duckdb.sql(f"CREATE OR REPLACE TABLE {new_table} AS SELECT {', '.join(select_columns)} FROM {table_name}")
-
+    con.execute(f"CREATE OR REPLACE TABLE {new_table} AS SELECT {', '.join(select_columns)} FROM {table_name}")
     return new_table
 
 
-def drop_duplicates_duckdb(table_name: str):
-    """Remove duplicate rows based on vehicle_license_number and dmv_license_plate_number."""
-
+def drop_duplicates_duckdb(con, table_name: str):
     new_table = f"{table_name}_dedup"
-
-    duckdb.sql(f"""
+    con.execute(f"""
         CREATE OR REPLACE TABLE {new_table} AS
         SELECT DISTINCT ON (vehicle_license_number, dmv_license_plate_number) *
         FROM {table_name}
     """)
-
     return new_table
 
 
-def select_required_columns_duckdb(table_name: str):
-    """Keep only required columns."""
-
+def select_required_columns_duckdb(con, table_name: str):
     columns_to_keep = [
         "vehicle_license_number",
         "license_type",
@@ -153,41 +133,32 @@ def select_required_columns_duckdb(table_name: str):
         "wheelchair_accessible",
         "active"
     ]
-
     new_table = f"{table_name}_cols"
-
-    duckdb.sql(f"""
+    con.execute(f"""
         CREATE OR REPLACE TABLE {new_table} AS
         SELECT {', '.join(columns_to_keep)}
         FROM {table_name}
     """)
-
     return new_table
 
 
-def drop_missing_key_ids_duckdb(table_name: str):
-    """Drop rows with missing `vehicle_license_number` or `dmv_license_plate_number`."""
-
+def drop_missing_key_ids_duckdb(con, table_name: str):
     new_table = f"{table_name}_notnull"
-    duckdb.sql(f"""
+    con.execute(f"""
         CREATE OR REPLACE TABLE {new_table} AS
         SELECT *
         FROM {table_name}
         WHERE vehicle_license_number IS NOT NULL AND dmv_license_plate_number IS NOT NULL
     """)
-
     return new_table
 
 
-def add_days_until_expiration_duckdb(table_name: str):
-    """Add a `days_until_expiration` column."""
-
+def add_days_until_expiration_duckdb(con, table_name: str):
     new_table = f"{table_name}_days"
-    duckdb.sql(f"""
+    con.execute(f"""
         CREATE OR REPLACE TABLE {new_table} AS
         SELECT *,
                EXTRACT(DAY FROM expiration_date - CURRENT_DATE) AS days_until_expiration
         FROM {table_name}
     """)
-
     return new_table

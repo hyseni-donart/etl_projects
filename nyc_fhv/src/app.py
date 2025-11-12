@@ -1,3 +1,5 @@
+import duckdb
+
 from datetime import date, datetime, timezone
 
 from src.config import configuration
@@ -7,8 +9,10 @@ from src.utils.logger import get_logger
 
 from src.utils.etl import (
     # etl functions that you will create
-    extract,
-    load,
+    extract_pandas,
+    extract_duckdb,
+    load_pandas,
+    load_duckdb,
     transform_pandas,
     transform_duckdb
 )
@@ -18,20 +22,39 @@ def main():
     engine = get_connection()
     logger.info("Starting")
 
-    ### ETL Functions here
-    df = extract(configuration.FILE_NAME)
-    logger.debug(df.shape)
-    logger.debug(df.columns)
+    if configuration.TRANSFORM_ENGINE == "pandas":
 
-    
-    df = transform_pandas(df)
-    # df = transform_duckdb(df)
+        df = extract_pandas(configuration.FILE_NAME)
+        logger.debug(df.shape)
+        logger.debug(df.columns)
 
-    print("Columns after transform:", df.columns.tolist())
-    print("Preview of transformed data:")
-    print(df.head(5))
+        df = transform_pandas(df)
 
-    load(df, engine)
+        print("Columns after transform:", df.columns.tolist())
+        print("Preview of transformed data:")
+        print(df.head(5))
+
+        load_pandas(df, engine)
+
+    elif configuration.TRANSFORM_ENGINE == "duckdb":
+
+        con = duckdb.connect(database=":memory:")
+        table_name = "fhv_data"
+
+        con.execute(f"CREATE TABLE {table_name} AS SELECT * FROM read_csv_auto('data/{configuration.FILE_NAME}')")
+
+        con, table_name = transform_duckdb(con, table_name)
+
+        df_preview = con.execute(f"SELECT * FROM {table_name} ORDER BY vehicle_license_number LIMIT 5").fetchdf()
+        print("Columns after transform:", df_preview.columns.tolist())
+        print("Preview of transformed data:")
+        print(df_preview)
+
+        # Load
+        load_duckdb(con, table_name, engine)
+
+
+
 
     
 

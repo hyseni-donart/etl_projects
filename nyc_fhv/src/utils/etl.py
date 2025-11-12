@@ -11,7 +11,6 @@ from .utils import (
 )
 
 from .utils import (
-    create_duckdb_table,
     standardize_column_names_duckdb,
     convert_expiration_date_duckdb,
     trim_text_columns_duckdb,
@@ -22,13 +21,34 @@ from .utils import (
 )
 
 
+#EXTRACT FFUNCTIONS----------------------------------------------------------------------
 
-def extract(file_name: str) -> pd.DataFrame: # simple extract function
+def extract_pandas(file_name: str) -> pd.DataFrame: # simple extract function
     return pd.read_csv(f"data/{file_name}", low_memory=False)
 
 
-def load(df: pd.DataFrame, engine) -> pd.DataFrame: # simple load function
+def extract_duckdb(con, table_name: str, file_name: str):
+    """Load CSV into DuckDB table in memory."""
+    con.execute(
+        f"""
+        CREATE TABLE {table_name} AS
+        SELECT * FROM read_csv_auto('data/{file_name}')
+        """
+    )
+    return con, table_name
+
+
+#LOAD FUNCTIONS-----------------------------------------------------------------------------
+
+def load_pandas(df: pd.DataFrame, engine) -> pd.DataFrame: # simple load function
     df.to_sql("fhv_active_cleaned", engine, if_exists="replace", index=False)
+
+
+def load_duckdb(con, table_name: str, engine):
+    """Load DuckDB table into external DB."""
+    df = con.execute(f"SELECT * FROM {table_name}").fetchdf()
+    df.to_sql("fhv_active_cleaned", engine, if_exists="replace", index=False)
+
 
 
 #PANDAS--------------------------------------------------------------------------------------
@@ -63,38 +83,34 @@ def transform_pandas(df: pd.DataFrame) -> pd.DataFrame:
 #-----------------------------------------------------------------------------------------
 #DUCKDB----------------------------------------------------------------------------------
 
-def transform_duckdb(df):
+def transform_duckdb(con, table_name: str):
     """
     Transform FHV data entirely in DuckDB using SQL operations.
     Steps mirror the Pandas pipeline but operate in-memory in DuckDB.
     """
-    # 1. Registers the original DataFrame as a DuckDB table
-    table = create_duckdb_table(df, "fhv_data")
 
-    # 2. Standardizes column names
-    table = standardize_column_names_duckdb(table)
+    # 1. Standardizes column names
+    table_name = standardize_column_names_duckdb(con, table_name)
 
-    # 3. Converts expiration_date column to DATE
-    table = convert_expiration_date_duckdb(table)
+    # 2. Converts expiration_date column to DATE
+    table_name = convert_expiration_date_duckdb(con, table_name)
 
-    # 4. Trims whitespace from all string columns
-    table = trim_text_columns_duckdb(table)
+    # 3. Trims whitespace from all string columns
+    table_name = trim_text_columns_duckdb(con, table_name)
 
-    # 5. Drops duplicates
-    table = drop_duplicates_duckdb(table)
+    # 4. Drops duplicates
+    table_name = drop_duplicates_duckdb(con, table_name)
 
-    # 6. Keeps only required columns
-    table = select_required_columns_duckdb(table)
+    # 5. Keeps only required columns
+    table_name = select_required_columns_duckdb(con, table_name)
 
-    # 7. Drops rows with missing key identifiers
-    table = drop_missing_key_ids_duckdb(table)
+    # 6. Drops rows with missing key identifiers
+    table_name = drop_missing_key_ids_duckdb(con, table_name)
 
-    # 8. Adds days_until_expiration column
-    table = add_days_until_expiration_duckdb(table)
+    # 7. Adds days_until_expiration column
+    table_name = add_days_until_expiration_duckdb(con, table_name)
 
-    # Returns a Pandas DataFrame if needed for further processing or loading
-    return duckdb.sql(f"SELECT * FROM {table}").fetchdf()
+    return con, table_name
 
 #------------------------------------------------------------------------------------------    
-
 
