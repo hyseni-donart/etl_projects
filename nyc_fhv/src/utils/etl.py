@@ -1,5 +1,6 @@
 import duckdb
 import pandas as pd
+from src.config import configuration
 from .utils import (
     standardize_column_names_pandas,
     convert_expiration_date_pandas,
@@ -45,9 +46,36 @@ def load_pandas(df: pd.DataFrame, engine) -> pd.DataFrame: # simple load functio
 
 
 def load_duckdb(con, table_name: str, engine):
-    """Load DuckDB table into external DB."""
-    df = con.execute(f"SELECT * FROM {table_name}").fetchdf()
-    df.to_sql("fhv_active_cleaned", engine, if_exists="replace", index=False)
+    """
+    Load DuckDB table directly into PostgreSQL (no pandas roundtrip).
+    """
+    db_url = (
+        f"postgres://{configuration.DB_USERNAME}:"
+        f"{configuration.DB_PASSWORD}@"
+        f"{configuration.DB_HOST}:"
+        f"{configuration.DB_PORT}/"
+        f"{configuration.DB_NAME}"
+    )
+    
+    print("Connecting DuckDB to Postgres with URL:", db_url)
+
+    # Enable DuckDB's Postgres extension
+    con.execute("INSTALL postgres;")
+    con.execute("LOAD postgres;")
+
+    # Attach the Postgres database
+    con.execute(f"ATTACH '{db_url}' AS postgres_db (TYPE POSTGRES);")
+
+    con.execute(f"DELETE FROM postgres_db.public.{table_name};")
+
+    # Insert data from DuckDB table into Postgres table
+    con.execute(f"""
+        INSERT INTO postgres_db.public.{table_name}
+        SELECT * FROM {table_name};
+    """)
+
+    print(f"✅ Successfully loaded data into PostgreSQL ({table_name}).")
+
 
 
 
