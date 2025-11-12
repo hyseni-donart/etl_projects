@@ -9,7 +9,8 @@ from src.utils.etl import (
     # etl functions that you will create
     extract,
     load,
-    transform_pandas
+    transform_pandas,
+    transform_duckdb
 )
 
 def main():
@@ -22,7 +23,9 @@ def main():
     logger.debug(df.shape)
     logger.debug(df.columns)
 
+    
     df = transform_pandas(df)
+    # df = transform_duckdb(df)
 
     print("Columns after transform:", df.columns.tolist())
     print("Preview of transformed data:")

@@ -1,5 +1,25 @@
 import duckdb
 import pandas as pd
+from .utils import (
+    standardize_column_names_pandas,
+    convert_expiration_date_pandas,
+    trim_text_columns_pandas,
+    drop_duplicates_pandas,
+    select_required_columns_pandas,
+    drop_missing_key_ids_pandas,
+    add_days_until_expiration_pandas
+)
+
+from .utils import (
+    create_duckdb_table,
+    standardize_column_names_duckdb,
+    convert_expiration_date_duckdb,
+    trim_text_columns_duckdb,
+    drop_duplicates_duckdb,
+    select_required_columns_duckdb,
+    drop_missing_key_ids_duckdb,
+    add_days_until_expiration_duckdb
+)
 
 
 
@@ -14,59 +34,66 @@ def load(df: pd.DataFrame, engine) -> pd.DataFrame: # simple load function
 #PANDAS--------------------------------------------------------------------------------------
 
 def transform_pandas(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Transform and clean the fhv dataset.
+    """Transform and clean the FHV dataset using helper functions."""
+    
+    # 1. Standardizes column names
+    df = standardize_column_names_pandas(df)
 
-    Args:
-        df (pd.DataFrame): Raw fhv data read from csv.
+    # 2.Converts expiration_date to a DATE
+    df = convert_expiration_date_pandas(df)
 
-    Returns:
-        pd.DataFrame: Cleaned and transformed DataFrame with:
-            - standardized column names (lowercase, underscores)
-            - expiration_date as datetime
-            - trimmed text columns
-            - duplicates removed
-            - only required columns kept
-            - rows with missing key identifiers removed
-            - days_until_expiration column added
-    """
+    # 3. Trims whitespace from all columns
+    df = trim_text_columns_pandas(df)
 
-    df.columns = [col.lower().replace(" ", "_") for col in df.columns]
+    # 4. Drops duplicates
+    df = drop_duplicates_pandas(df)
 
-    df['expiration_date'] = pd.to_datetime(
-        df['expiration_date'],
-        format="%m/%d/%Y",
-        errors="coerce"  
-    )
+    # 5. Keeps only required colums
+    df = select_required_columns_pandas(df)
 
-    for col in df.select_dtypes(include='object').columns:
-        df[col] = df[col].str.strip()
+    # 6. Drops rows with missing key identifiers
+    df = drop_missing_key_ids_pandas(df)
 
-    df = df.drop_duplicates(subset=["vehicle_license_number", "dmv_license_plate_number"])
-
-    columns_to_keep = [
-    "vehicle_license_number",
-    "license_type",
-    "dmv_license_plate_number",
-    "vehicle_vin_number",
-    "expiration_date",
-    "wheelchair_accessible",
-    "active"
-    ]
-
-    df = df[columns_to_keep]
-
-    df = df.dropna(subset=["vehicle_license_number", "dmv_license_plate_number"])
-
-    df['days_until_expiration'] = (df['expiration_date'] - pd.Timestamp.now()).dt.days
-
-    duckdb.register("fhv_data", df)
+    # 6. Adds a days_until_expiration cplumn
+    df = add_days_until_expiration_pandas(df)
 
     return df
+
 
 #-----------------------------------------------------------------------------------------
 #DUCKDB----------------------------------------------------------------------------------
 
+def transform_duckdb(df):
+    """
+    Transform FHV data entirely in DuckDB using SQL operations.
+    Steps mirror the Pandas pipeline but operate in-memory in DuckDB.
+    """
+    # 1. Registers the original DataFrame as a DuckDB table
+    table = create_duckdb_table(df, "fhv_data")
+
+    # 2. Standardizes column names
+    table = standardize_column_names_duckdb(table)
+
+    # 3. Converts expiration_date column to DATE
+    table = convert_expiration_date_duckdb(table)
+
+    # 4. Trims whitespace from all string columns
+    table = trim_text_columns_duckdb(table)
+
+    # 5. Drops duplicates
+    table = drop_duplicates_duckdb(table)
+
+    # 6. Keeps only required columns
+    table = select_required_columns_duckdb(table)
+
+    # 7. Drops rows with missing key identifiers
+    table = drop_missing_key_ids_duckdb(table)
+
+    # 8. Adds days_until_expiration column
+    table = add_days_until_expiration_duckdb(table)
+
+    # Returns a Pandas DataFrame if needed for further processing or loading
+    return duckdb.sql(f"SELECT * FROM {table}").fetchdf()
 
 #------------------------------------------------------------------------------------------    
 
