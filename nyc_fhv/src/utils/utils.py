@@ -76,6 +76,8 @@ def create_duckdb_table(con, df, table_name: str):
 
 
 def standardize_column_names_duckdb(con, table_name: str):
+    """Lowercase columns and replace spaces with underscores."""
+
     columns = con.execute(f"DESCRIBE {table_name}").fetchdf()['column_name'].tolist()
     rename_map = {col: col.lower().replace(" ", "_") for col in columns}
     
@@ -87,14 +89,19 @@ def standardize_column_names_duckdb(con, table_name: str):
 
 
 def convert_expiration_date_duckdb(con, table_name: str):
+    """Convert expiration_date column to DATE."""
+
     con.execute(f"""
         UPDATE {table_name}
         SET expiration_date = STRPTIME(CAST(expiration_date AS VARCHAR), '%Y-%m-%d')
     """)
+
     return table_name
 
 
 def trim_text_columns_duckdb(con, table_name: str):
+    """Trim whitespace from all VARCHAR columns."""
+
     string_cols = con.execute(f"""
         SELECT column_name
         FROM information_schema.columns
@@ -109,15 +116,20 @@ def trim_text_columns_duckdb(con, table_name: str):
 
 
 def drop_duplicates_duckdb(con, table_name: str):
+    """Remove duplicate rows."""
+
     con.execute(f"""
         CREATE OR REPLACE TABLE {table_name} AS
         SELECT DISTINCT *
         FROM {table_name}
     """)
+
     return table_name
 
 
 def select_required_columns_duckdb(con, table_name: str):
+    """Keep only the required columns."""
+
     cols = [
         "vehicle_license_number",
         "license_type",
@@ -138,6 +150,8 @@ def select_required_columns_duckdb(con, table_name: str):
 
 
 def drop_missing_key_ids_duckdb(con, table_name: str):
+    """Drop rows with missing key IDs."""
+
     con.execute(f"""
         CREATE OR REPLACE TABLE {table_name} AS
         SELECT *
@@ -145,10 +159,13 @@ def drop_missing_key_ids_duckdb(con, table_name: str):
         WHERE vehicle_license_number IS NOT NULL
           AND dmv_license_plate_number IS NOT NULL
     """)
+
     return table_name
 
 
 def add_days_until_expiration_duckdb(con, table_name: str):
+    """Add days_until_expiration column."""
+    
     con.execute(f"""
         ALTER TABLE {table_name}
         ADD COLUMN days_until_expiration INTEGER;
