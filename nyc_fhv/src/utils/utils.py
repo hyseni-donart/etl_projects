@@ -77,54 +77,48 @@ def create_duckdb_table(con, df, table_name: str):
 
 def standardize_column_names_duckdb(con, table_name: str):
     columns = con.execute(f"DESCRIBE {table_name}").fetchdf()['column_name'].tolist()
-    rename_columns = [f'"{col}" AS "{col.lower().replace(" ", "_")}"' for col in columns]
-    new_table_name = f"{table_name}_std"
-    con.execute(f"CREATE OR REPLACE TABLE {new_table_name} AS SELECT {', '.join(rename_columns)} FROM {table_name}")
-    return new_table_name
+    rename_map = {col: col.lower().replace(" ", "_") for col in columns}
+    
+    for old, new in rename_map.items():
+        if old != new:
+            con.execute(f'ALTER TABLE {table_name} RENAME COLUMN "{old}" TO "{new}"')
+    
+    return table_name
 
 
 def convert_expiration_date_duckdb(con, table_name: str):
-    """Convert `expiration_date` column to a proper datetime type."""
-    
-    new_table = f"{table_name}_date"
-    
     con.execute(f"""
-        CREATE OR REPLACE TABLE {new_table} AS
-        SELECT
-            vehicle_license_number,
-            license_type,
-            dmv_license_plate_number,
-            vehicle_vin_number,
-            STRPTIME(CAST(expiration_date AS VARCHAR), '%Y-%m-%d') AS expiration_date,
-            wheelchair_accessible,
-            active
-        FROM {table_name}
+        UPDATE {table_name}
+        SET expiration_date = STRPTIME(CAST(expiration_date AS VARCHAR), '%Y-%m-%d')
     """)
-    
-    return new_table
+    return table_name
 
 
 def trim_text_columns_duckdb(con, table_name: str):
-    columns_info = con.execute(f"DESCRIBE {table_name}").fetchdf()
-    string_cols = columns_info[columns_info['column_type'] == 'VARCHAR']['column_name'].tolist()
-    select_columns = [f"TRIM({col}) AS {col}" if col in string_cols else col for col in columns_info['column_name']]
-    new_table = f"{table_name}_trimmed"
-    con.execute(f"CREATE OR REPLACE TABLE {new_table} AS SELECT {', '.join(select_columns)} FROM {table_name}")
-    return new_table
+    string_cols = con.execute(f"""
+        SELECT column_name
+        FROM information_schema.columns
+        WHERE table_name = '{table_name}'
+          AND data_type = 'VARCHAR'
+    """).fetchall()
+
+    for (col,) in string_cols:
+        con.execute(f"UPDATE {table_name} SET {col} = TRIM({col});")
+
+    return table_name
 
 
 def drop_duplicates_duckdb(con, table_name: str):
-    new_table = f"{table_name}_dedup"
     con.execute(f"""
-        CREATE OR REPLACE TABLE {new_table} AS
-        SELECT DISTINCT ON (vehicle_license_number, dmv_license_plate_number) *
+        CREATE OR REPLACE TABLE {table_name} AS
+        SELECT DISTINCT *
         FROM {table_name}
     """)
-    return new_table
+    return table_name
 
 
 def select_required_columns_duckdb(con, table_name: str):
-    columns_to_keep = [
+    cols = [
         "vehicle_license_number",
         "license_type",
         "dmv_license_plate_number",
@@ -133,32 +127,36 @@ def select_required_columns_duckdb(con, table_name: str):
         "wheelchair_accessible",
         "active"
     ]
-    new_table = f"{table_name}_cols"
+
     con.execute(f"""
-        CREATE OR REPLACE TABLE {new_table} AS
-        SELECT {', '.join(columns_to_keep)}
+        CREATE OR REPLACE TABLE {table_name} AS
+        SELECT {', '.join(cols)}
         FROM {table_name}
     """)
-    return new_table
+
+    return table_name
 
 
 def drop_missing_key_ids_duckdb(con, table_name: str):
-    new_table = f"{table_name}_notnull"
     con.execute(f"""
-        CREATE OR REPLACE TABLE {new_table} AS
+        CREATE OR REPLACE TABLE {table_name} AS
         SELECT *
         FROM {table_name}
-        WHERE vehicle_license_number IS NOT NULL AND dmv_license_plate_number IS NOT NULL
+        WHERE vehicle_license_number IS NOT NULL
+          AND dmv_license_plate_number IS NOT NULL
     """)
-    return new_table
+    return table_name
 
 
 def add_days_until_expiration_duckdb(con, table_name: str):
-    new_table = f"{table_name}_days"
     con.execute(f"""
-        CREATE OR REPLACE TABLE {new_table} AS
-        SELECT *,
-               EXTRACT(DAY FROM expiration_date - CURRENT_DATE) AS days_until_expiration
-        FROM {table_name}
+        ALTER TABLE {table_name}
+        ADD COLUMN days_until_expiration INTEGER;
     """)
-    return new_table
+
+    con.execute(f"""
+        UPDATE {table_name}
+        SET days_until_expiration = DATE_DIFF('day', CURRENT_DATE, expiration_date)
+    """)
+
+    return table_name

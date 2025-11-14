@@ -46,7 +46,7 @@ def load_pandas(df: pd.DataFrame, engine) -> pd.DataFrame: # simple load functio
 
 def load_duckdb(con, table_name: str, engine):
     """
-    Load DuckDB table directly into PostgreSQL (no pandas roundtrip).
+    Load DuckDB table directly into PostgreSQL.
     """
     db_url = (
         f"postgres://{configuration.DB_USERNAME}:"
@@ -55,8 +55,6 @@ def load_duckdb(con, table_name: str, engine):
         f"{configuration.DB_PORT}/"
         f"{configuration.DB_NAME}"
     )
-    
-    print("Connecting DuckDB to Postgres with URL:", db_url)
 
     # Enable DuckDB's Postgres extension
     con.execute("INSTALL postgres;")
@@ -65,12 +63,12 @@ def load_duckdb(con, table_name: str, engine):
     # Attach the Postgres database
     con.execute(f"ATTACH '{db_url}' AS postgres_db (TYPE POSTGRES);")
 
-    con.execute(f"DELETE FROM postgres_db.public.{table_name};")
-
     # Insert data from DuckDB table into Postgres table
+    new_table_name = "fhv_active_cleaned_duckdb"
     con.execute(f"""
-        INSERT INTO postgres_db.public.{table_name}
-        SELECT * FROM {table_name};
+        CREATE OR REPLACE TABLE postgres_db.public.{new_table_name} AS (
+            SELECT * FROM {table_name}
+        );
     """)
 
 
