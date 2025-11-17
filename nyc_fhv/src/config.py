@@ -32,6 +32,8 @@ class Config(object):
     FILE_NAME = os.getenv("FILE_NAME")
 
     TRANSFORM_ENGINE = os.getenv("TRANSFORM_ENGINE")
+    if TRANSFORM_ENGINE not in ("pandas", "duckdb"):
+        TRANSFORM_ENGINE = "pandas"
 
 
 @lru_cache

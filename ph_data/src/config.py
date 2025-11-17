@@ -31,7 +31,9 @@ class Config(object):
     LOG_LEVEL = int(os.environ.get("LOG_LEVEL", 20))
     FILE_NAME = os.getenv("FILE_NAME")
 
-    TRANSFORM_ENGINE = os.getenv("TRANSFORM_ENGINE", "pandas")
+    TRANSFORM_ENGINE = os.getenv("TRANSFORM_ENGINE")
+    if TRANSFORM_ENGINE not in ("pandas", "duckdb"):
+        TRANSFORM_ENGINE = "pandas"
 
 
 @lru_cache

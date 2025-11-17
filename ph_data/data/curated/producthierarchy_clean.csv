@@ -1,0 +1,700 @@
+product_id,product,brand,type,category,subcategory,length_cm,depth_cm,width_cm,volume_cm3
+P0000,Serum,Livon,Indian & Exotic Herbs,Fruits & Vegetables,Herbs & Seasonings,5.0,20.0,12.0,1200.0
+P0001,Hand Wash - Moisture Shield,Savlon,Hair Oil & Serum,Beauty & Hygiene,Hair Care,13.5,22.0,20.0,5940.0
+P0002,Good Day Butter Cookies,Britannia,Hand Wash & Sanitizers,Beauty & Hygiene,Bath & Hand Wash,22.0,40.0,22.0,19360.0
+P0004,Happy Happy Choco-Chip Cookies,Parle,Cookies,Snacks & Branded Foods,Biscuits & Cookies,2.0,13.0,4.0,104.0
+P0005,50-50 Timepass Salted Biscuits,Britannia,Glucose & Milk Biscuits,Snacks & Branded Foods,Biscuits & Cookies,16.0,30.0,16.0,7680.0
+P0006,Tiger Elaichi Cream Biscuits,Britannia,Salted Biscuits,Snacks & Branded Foods,Biscuits & Cookies,8.5,15.0,15.0,1912.5
+P0007,Bounce Biscuits - Choco Creme,Sunfeast,Glucose & Milk Biscuits,Snacks & Branded Foods,Biscuits & Cookies,2.0,22.0,9.5,418.0
+P0008,50-50 Timepass Biscuits,Britannia,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,5.0,16.0,5.0,400.0
+P0009,Tiger Chocolate Cream Biscuits,Britannia,Salted Biscuits,Snacks & Branded Foods,Biscuits & Cookies,5.0,18.0,14.0,1260.0
+P0010,Biscuits - Magix Kreams Choc,Parle,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,2.0,22.0,3.0,132.0
+P0011,Dreams Cup Cake - Choco,Elite,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,9.0,22.0,15.0,2970.0
+P0012,Layer Cake - Chocolate,Winkies,Muffins & Cup Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,10.0,20.0,12.3,2460.0
+P0013,Layer Cake - Orange,Winkies,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,7.1,27.5,13.7,2674.9249999999997
+P0014,Sugar Coated Chocolate,Cadbury Gems,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,32.5,6.0,33.0,6435.0
+P0015,Cadbury Perk - Chocolate Bar,Cadbury,Chocolates,Snacks & Branded Foods,Chocolates & Candies,10.0,33.0,10.0,3300.0
+P0016,Polo - The Mint With The Hole,Nestle,Chocolates,Snacks & Branded Foods,Chocolates & Candies,2.0,18.0,8.0,288.0
+P0017,Orbit Sugar-Free Chewing Gum - Lemon & Lime,Wrigleys,"Toffee, Candy & Lollypop",Snacks & Branded Foods,Chocolates & Candies,8.0,28.0,8.0,1792.0
+P0018,Sugar Free Chewing Gum - Mixed Fruit,Orbit,Mints & Chewing Gum,Snacks & Branded Foods,Chocolates & Candies,1.0,14.0,11.0,154.0
+P0019,Chewing Gum - Peppermint,Doublemint,Mints & Chewing Gum,Snacks & Branded Foods,Chocolates & Candies,1.5,42.0,32.0,2016.0
+P0020,"Tomato - Local, Organically Grown",Fresho,Mints & Chewing Gum,Snacks & Branded Foods,Chocolates & Candies,5.0,28.0,16.0,2240.0
+P0021,"Tomato - Local, Organically Grown",Fresho,Organic Vegetables,Fruits & Vegetables,Fresh Vegetables,8.0,26.0,23.0,4784.0
+P0022,Marie Light Biscuits - Active,Sunfeast,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,5.7,18.6,10.1,1070.8020000000001
+P0023,Fulltoss Thai Sriracha,Parle,Breakfast & Snack Mixes,Snacks & Branded Foods,Ready To Cook & Eat,1.0,1.0,1.0,1.0
+P0024,Fulltoss Tangy Tomato,Parle,Nachos & Chips,Gourmet & World Food,"Snacks, Dry Fruits, Nuts",1.0,23.0,16.0,368.0
+P0025,Exam Standard Scale,Camlin,Nachos & Chips,Gourmet & World Food,"Snacks, Dry Fruits, Nuts",33.0,6.0,20.0,3960.0
+P0026,Dish Shine Bar,Exo,Exam Pads & Pencil Box,Cleaning & Household,Stationery,4.0,22.0,16.0,1408.0
+P0027,Marigold Flower - Orange,Fresho,Dishwash Bars & Powders,Cleaning & Household,Detergents & Dishwash,5.0,28.0,16.0,2240.0
+P0028,Tomato - Green,Fresho,Marigold,Fruits & Vegetables,"Flower Bouquets, Bunches",3.4,11.3,12.0,461.04
+P0029,"Chilli - Green, Organically Grown",Fresho,"Potato, Onion & Tomato",Fruits & Vegetables,Fresh Vegetables,2.5,18.0,8.0,360.0
+P0030,Ginger - Organically Grown,Fresho,Organic Vegetables,Fruits & Vegetables,Herbs & Seasonings,9.0,9.0,37.0,2997.0
+P0031,"Chilli - Green, Organically Grown",Fresho,Organic Vegetables,Fruits & Vegetables,Herbs & Seasonings,,,,
+P0032,Ginger - Organically Grown,Fresho,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,5.0,12.0,4.0,240.0
+P0033,Blue Detergent Bar,Wheel,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,5.0,28.0,16.0,2240.0
+P0035,"Tomato - Hybrid, Organically Grown",Fresho,Detergent Bars,Cleaning & Household,Detergents & Dishwash,3.0,17.0,12.5,637.5
+P0036,"Tomato - Hybrid, Organically Grown",Fresho,Organic Vegetables,Fruits & Vegetables,Fresh Vegetables,6.0,20.0,10.0,1200.0
+P0037,Crackers - Cheese & Sugar,Gery Gone Mad,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,3.5,10.5,3.5,128.625
+P0038,Munch Crisp-Pop Chocolate Coated Crunchy Wafer,Nestle,Crackers & Digestive,Gourmet & World Food,Chocolates & Biscuits,5.0,21.5,5.0,537.5
+P0039,Herbal Apple Massage Cream,Olivia,Chocolates,Snacks & Branded Foods,Chocolates & Candies,11.5,28.0,27.0,8694.0
+P0040,Milk Shakti Biscuits - With The Goodness Of Milk,Parle,Body Care,Beauty & Hygiene,Skin Care,7.0,26.5,7.0,1298.5
+P0041,Roll Yo! Strawberry Swiss Roll,Britannia,Glucose & Milk Biscuits,Snacks & Branded Foods,Biscuits & Cookies,5.0,28.0,16.0,2240.0
+P0042,"Mint - Sugarfree, Fruity Flavour",Center Fresh,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,1.0,16.0,10.0,160.0
+P0043,Tomato - Local,Fresho,"Toffee, Candy & Lollypop",Snacks & Branded Foods,Chocolates & Candies,3.5,23.0,32.0,2576.0
+P0044,Mint Leaves,Fresho,"Potato, Onion & Tomato",Fruits & Vegetables,Fresh Vegetables,1.0,10.0,5.0,50.0
+P0045,Fruit Salt - Lemon Flavor,Eno,Leafy Vegetables,Fruits & Vegetables,Fresh Vegetables,3.0,17.0,12.5,637.5
+P0046,Instant Popcorn - Bbq,4700Bc,Everyday Medicine,Beauty & Hygiene,Health & Medicine,1.7,11.1,9.6,181.15199999999996
+P0047,Instant Popcorn - Butter,4700Bc,Gourmet Popcorn,Gourmet & World Food,"Snacks, Dry Fruits, Nuts",5.0,28.0,16.0,2240.0
+P0048,Instant Popcorn - Seven Spices,4700Bc,Gourmet Popcorn,Gourmet & World Food,"Snacks, Dry Fruits, Nuts",29.3,14.7,19.8,8528.057999999999
+P0049,Instant Popcorn - Natural Healthy,4700Bc,Gourmet Popcorn,Gourmet & World Food,"Snacks, Dry Fruits, Nuts",2.0,40.0,10.0,800.0
+P0050,Drinking Water With Added Minerals,Kinley,Gourmet Popcorn,Gourmet & World Food,"Snacks, Dry Fruits, Nuts",6.9,6.0,6.9,285.6600000000001
+P0051,50-50 Jeera Masti Biscuits,Britannia,Packaged Water,Beverages,Water,1.7,17.5,4.5,133.875
+P0053,Puliogare Masala Powder,Eastern,Salted Biscuits,Snacks & Branded Foods,Biscuits & Cookies,5.0,40.0,40.0,8000.0
+P0054,Secret Hot & Sour Instant Soup,Chings,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,8.5,14.6,8.5,1054.85
+P0055,Instant Popcorn - Chilly Surprise,Act Ii,Soups,Snacks & Branded Foods,Ready To Cook & Eat,2.3,18.5,13.5,574.425
+P0056,Salt/Uppu - Iodised,Aashirvaad,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,,,,
+P0057,Butter Milk - Spiced,Nandini,Salts,"Foodgrains, Oil & Masala","Salt, Sugar & Jaggery",4.0,22.0,9.0,792.0
+P0058,Soap Bar - Care,Lifebuoy,Buttermilk & Lassi,"Bakery, Cakes & Dairy",Dairy,3.0,21.0,8.0,504.0
+P0059,Lime Bath Soap - 99.9% Germ Protection,Cinthol,Bathing Bars & Soaps,Beauty & Hygiene,Bath & Hand Wash,9.1,29.7,13.2,3567.5639999999994
+P0060,Fresh Splash Water Lily & Cooling Mint Soap Bar,Lux,Bathing Bars & Soaps,Beauty & Hygiene,Bath & Hand Wash,7.5,20.5,5.4,830.25
+P0061,Jasmine Bloom Soap Bar,Lux,Bathing Bars & Soaps,Beauty & Hygiene,Bath & Hand Wash,9.3,32.0,19.2,5713.92
+P0062,50-50 Maska Chaska Salted Biscuits,Britannia,Bathing Bars & Soaps,Beauty & Hygiene,Bath & Hand Wash,,,,
+P0063,Biscuits - Monaco Salted Snack,Parle,Salted Biscuits,Snacks & Branded Foods,Biscuits & Cookies,7.5,7.5,7.5,421.875
+P0064,Biscuits - Googly,Bisk Farm,Salted Biscuits,Snacks & Branded Foods,Biscuits & Cookies,7.0,10.0,7.0,490.0
+P0065,Marie Light Oats Biscuits,Sunfeast,Cookies,Snacks & Branded Foods,Biscuits & Cookies,8.5,33.0,32.0,8976.0
+P0066,Marie Light Biscuits - Active,Sunfeast,"Marie, Health, Digestive",Snacks & Branded Foods,Biscuits & Cookies,0.3,15.5,8.5,39.525
+P0067,Cheese Cracker,Mcvities,"Marie, Health, Digestive",Snacks & Branded Foods,Biscuits & Cookies,5.4,20.5,7.5,830.25
+P0068,Bounce Biscuits - Pineapple Creme,Sunfeast,Salted Biscuits,Snacks & Branded Foods,Biscuits & Cookies,13.0,9.0,13.0,1521.0
+P0069,Veda Marie Light Biscuits,Sunfeast,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,3.0,12.0,8.5,306.0
+P0070,Thinz - Almond,Bisk Farm,"Marie, Health, Digestive",Snacks & Branded Foods,Biscuits & Cookies,8.7,14.0,8.7,1059.6599999999999
+P0071,Dream Cream - Choco Vanilla Cream Biscuit - Cookie,Sunfeast,"Marie, Health, Digestive",Snacks & Branded Foods,Biscuits & Cookies,4.9,16.5,6.5,525.5250000000001
+P0072,Good Day Butter Cookies,Britannia,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,3.0,12.0,12.0,432.0
+P0073,Bounce Biscuits - Elaichi Creme,Sunfeast,Cookies,Snacks & Branded Foods,Biscuits & Cookies,2.0,30.0,30.0,1800.0
+P0074,Happy Happy Choco-Chip Cookies,Parle,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,9.0,6.0,9.0,486.0
+P0075,Top Spin Crackers,Parle,Cookies,Snacks & Branded Foods,Biscuits & Cookies,6.0,26.7,26.0,4165.2
+P0076,Biscuit - Nariyal,Patanjali,Salted Biscuits,Snacks & Branded Foods,Biscuits & Cookies,2.0,10.0,2.0,40.0
+P0077,Butter Cookies,Amul,Cookies,Snacks & Branded Foods,Biscuits & Cookies,3.0,23.5,17.0,1198.5
+P0078,Chocos Crunchy Bites,Kelloggs,Cookies,Snacks & Branded Foods,Biscuits & Cookies,7.5,11.5,7.5,646.875
+P0079,Chocos - Magic Hearts,Kelloggs,Kids Cereal,Snacks & Branded Foods,Breakfast Cereals,2.0,13.0,6.0,156.0
+P0080,Chocos Webs - Spiderman,Kelloggs,Kids Cereal,Snacks & Branded Foods,Breakfast Cereals,2.0,24.0,2.0,96.0
+P0082,"Breakfast Cereal - Chocolate Flavour, Small Pack",Nestle Koko Krunch,Kids Cereal,Snacks & Branded Foods,Breakfast Cereals,3.4,17.6,8.1,484.704
+P0083,Fiber Rich Choclaq,Zerobeli,Kids Cereal,Snacks & Branded Foods,Breakfast Cereals,2.2,7.7,10.6,179.56400000000002
+P0084,Honey Almond Corn Flakes,Zerobeli,Flakes,Snacks & Branded Foods,Breakfast Cereals,4.0,14.0,12.0,672.0
+P0085,Centre Filled Cup Cake - With Vanilla Cream,Winkies,Flakes,Snacks & Branded Foods,Breakfast Cereals,12.0,26.0,11.0,3432.0
+P0086,Strawberry Muffils,Britannia,Muffins & Cup Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,39.0,34.0,49.0,64974.0
+P0087,Centre Filled Chocolate Cake - With Vanilla Cream,Winkies,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,2.0,5.7,19.0,216.6
+P0088,Cake Novo Finger - Chocolate,Winkies,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,18.0,24.0,8.0,3456.0
+P0089,"Chocolate Roll - Swiss, Mini",Winkies,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,2.0,15.0,8.0,240.0
+P0090,Choco Muffills,Britannia,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,1.0,5.0,6.0,30.0
+P0091,Roll Yo! Choco Swiss Roll,Britannia,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,2.0,27.0,21.0,1134.0
+P0092,Happy Happy Egg Cake - Vanilla,Parle,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,6.0,15.0,8.0,720.0
+P0093,Spyroll,Bauli,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,7.0,18.0,7.0,882.0
+P0094,Roll - Swiss Single,Dream Bake,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,3.8,14.3,3.8,206.492
+P0095,Choco Layer Cake,Britannia,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,40.0,100.0,50.0,200000.0
+P0096,Gems - Sugar Coated Chocolate,Cadbury,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,3.4,14.5,4.4,216.92000000000002
+P0097,Shots,Cadbury Dairy Milk,Chocolates,Snacks & Branded Foods,Chocolates & Candies,1.0,19.2,9.0,172.79999999999998
+P0098,Chewing Gum - Peppermint,Doublemint,Chocolates,Snacks & Branded Foods,Chocolates & Candies,4.0,16.0,12.5,800.0
+P0099,Xtra Peppermint Flavour - Chewing Gum Stick,Center Fresh,Mints & Chewing Gum,Snacks & Branded Foods,Chocolates & Candies,3.0,11.3,10.0,339.00000000000006
+P0100,Chewing Gum Stick - Fruits Flavour,Center Fruit,Mints & Chewing Gum,Snacks & Branded Foods,Chocolates & Candies,2.0,27.0,21.0,1134.0
+P0101,Jellicious - Jelimals,Candyman,Mints & Chewing Gum,Snacks & Branded Foods,Chocolates & Candies,4.5,17.6,4.5,356.40000000000003
+P0102,Breath Mint - The Mint With The Hole,Polo,"Toffee, Candy & Lollypop",Snacks & Branded Foods,Chocolates & Candies,7.0,27.0,40.0,7560.0
+P0103,White Chocolate Bar,Nestle,"Toffee, Candy & Lollypop",Snacks & Branded Foods,Chocolates & Candies,9.0,30.0,9.0,2430.0
+P0104,Sunrise Coffee,Nescafe,Chocolates,Snacks & Branded Foods,Chocolates & Candies,3.0,20.0,11.0,660.0
+P0105,Traditional Filter Coffee Decoction,Id,Instant Coffee,Beverages,Coffee,11.0,13.0,16.0,2288.0
+P0108,"Coffee - Premix, Instant",Narasus,Instant Coffee,Beverages,Coffee,10.0,25.0,32.0,8000.0
+P0109,"Brinjal - Varikatri, Organically Grown",Fresho,Instant Coffee,Beverages,Coffee,7.0,18.0,11.0,1386.0
+P0110,Dill Leaves,Fresho,Organic Vegetables,Fruits & Vegetables,Fresh Vegetables,6.2,16.8,6.2,645.792
+P0111,Sugarcane,Fresho,Leafy Vegetables,Fruits & Vegetables,Fresh Vegetables,7.8,9.5,9.4,696.54
+P0112,Juice - Mango Refresh,Maaza,Seasonal Fruits,Fruits & Vegetables,Fresh Fruits,17.5,9.5,24.0,3990.0
+P0113,Coriander Leaves,Fresho,Juices,Beverages,Fruit Juices & Drinks,2.0,17.0,6.0,204.0
+P0114,Lemon Grass,Fresho,Indian & Exotic Herbs,Fruits & Vegetables,Herbs & Seasonings,2.0,7.5,9.0,135.0
+P0115,"Chikki, Peanut Bar",Paper Boat,Indian & Exotic Herbs,Fruits & Vegetables,Herbs & Seasonings,3.0,14.0,5.5,231.0
+P0116,Secret Schezwan Fried Rice Masala,Chings,Chikki & Gajjak,Snacks & Branded Foods,Indian Mithai,0.5,14.0,6.0,42.0
+P0117,Paneer Chilli Masala,Ching'S Secret,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,5.0,10.8,5.6,302.4
+P0118,Secret Veg Manchurian Masala,Chings,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,5.0,28.0,16.0,2240.0
+P0119,Masala - Lemon Rice Powder,Mtr,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,15.0,15.0,15.0,3375.0
+P0122,Masala - Tomato Rice Powder,Mtr,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,5.0,28.0,16.0,2240.0
+P0123,Secret Chowmein Hakka Noodles Masala,Chings,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,5.5,22.5,19.0,2351.25
+P0124,Lime Bath Soap - 99.9% Germ Protection,Cinthol,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,17.0,24.0,17.0,6936.0
+P0125,Utensil Scrubber - Green,Milton - Spotzero,Bathing Bars & Soaps,Beauty & Hygiene,Men'S Grooming,2.0,5.0,9.0,90.0
+P0126,Noodles - Fiery Chilli,Top Ramen,"Utensil Scrub-Pad, Glove",Cleaning & Household,"Mops, Brushes & Scrubs",4.0,16.0,5.0,320.0
+P0127,"Brinjal - Varikatri, Organically Grown",Fresho,Instant Noodles,Snacks & Branded Foods,"Noodle, Pasta, Vermicelli",10.0,30.0,20.0,6000.0
+P0128,Mint - Organically Grown,Fresho,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,9.0,14.0,9.0,1134.0
+P0129,Kale,Fresho,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,22.2,22.2,44.4,21882.095999999998
+P0130,Tulsi Leaves,Fresho,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,2.5,17.0,13.0,552.5
+P0131,Pooja Agarbatti - Treya 3 In 1,Mangaldeep,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,1.0,12.0,11.0,132.0
+P0132,"Incense Sticks - Namo Paduka, Scented",Giri,"Agarbatti, Incense Sticks",Cleaning & Household,Pooja Needs,5.0,28.0,16.0,2240.0
+P0133,Instant Sweet Corn Cup-A-Soup,Knorr,"Agarbatti, Incense Sticks",Cleaning & Household,Pooja Needs,9.0,28.0,20.0,5040.0
+P0134,Cup-A-Soup - Hot & Sour Veg,Knorr,Soups,Snacks & Branded Foods,Ready To Cook & Eat,6.0,30.0,10.0,1800.0
+P0135,Instant Mixed Vegetable Cup-A-Soup,Knorr,Soups,Snacks & Branded Foods,Ready To Cook & Eat,3.0,15.0,55.0,2475.0
+P0136,Namkeen - Aloo Bhujia,Haldirams,Soups,Snacks & Branded Foods,Ready To Cook & Eat,3.3,25.9,8.5,726.4949999999999
+P0137,Namkeen - Bhujia Sev,Haldirams,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,23.6,24.1,8.3,4720.708000000001
+P0138,Namkeen - Tasty Nuts,Haldirams,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,5.0,47.0,28.5,6697.5
+P0139,Potato Chips - Calm Cream & Onion Flavour,Lays,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,4.0,17.0,11.0,748.0
+P0140,Namkeen - Lite Chiwda,Haldirams,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,2.0,27.0,21.0,1134.0
+P0141,Namkeen - Mixture,Haldirams,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,6.0,20.0,12.0,1440.0
+P0142,Nachos Cheese Tortilla Chips,Doritos,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,7.0,12.0,12.0,1008.0
+P0143,Namkeen - Lemon Bhel,Haldirams,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,3.0,26.0,13.0,1014.0
+P0144,Namkeen - Chilli Chatka,Kurkure,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,4.5,21.0,14.3,1351.3500000000001
+P0145,Namkeen - Madras Mixture,Townbus,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,4.0,12.5,4.0,200.0
+P0146,Namkeen - Ribbon Pakoda,Townbus,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,3.6,3.5,20.0,252.0
+P0147,Namkeen - Green Chutney Rajasthani Style,Kurkure,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,12.5,37.0,12.5,5781.25
+P0148,Sweet Chilli Tortilla Chips,Doritos,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,6.0,7.0,12.2,512.4
+P0149,Namkeen - Corn Flakes Mixture,Townbus,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,1.8,5.5,16.3,161.37
+P0150,Mad Angles Chips - Tomato Madness,Bingo,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,6.0,14.0,14.0,1176.0
+P0151,Namkeen - Naughty Tomatoes,Kurkure,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,2.0,15.0,11.5,345.0
+P0152,Masala Balls Snacks,Cheetos,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,5.0,19.0,13.0,1235.0
+P0154,Mad Angles Achari Masti,Bingo,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,3.0,20.0,12.0,720.0
+P0155,Instant Diet Popcorn - Contains Olive Oil,Pipo,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,,,,
+P0156,Instant Popcorn - Chilli Surprise,Pipo,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,5.0,20.0,8.0,800.0
+P0157,Instant Popcorn - Butter Lovers,Pipo,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,6.0,6.0,15.0,540.0
+P0158,Namkeen - Moong Dal,Haldirams,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,15.0,8.0,2.0,240.0
+P0159,Hot & Sweet Chilli,Lays,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,20.0,28.0,25.0,14000.0
+P0160,Namkeen - Butter Murukku,Townbus,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,30.0,1.0,21.0,630.0
+P0161,Namkeen - Khara Boondi,Townbus,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,7.0,6.0,7.0,294.0
+P0162,Mad Angles Cheese Nachos Chips,Bingo,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,2.0,8.8,3.6,63.36000000000001
+P0163,Potato Crisps - Cream 'N' Onion,Parle,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,2.0,13.0,4.0,104.0
+P0164,"Gel Pen - Black, Octane",Classmate,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,4.4,15.8,9.0,625.6800000000001
+P0165,Butter Gelpen - Blue,Cello,"Pen, Pencils",Cleaning & Household,Stationery,1.0,13.0,12.0,156.0
+P0166,Glare Mech Pencil,Nataraj,"Pen, Pencils",Cleaning & Household,Stationery,5.0,19.0,13.0,1235.0
+P0167,Tru Mango,Amul,"Pen, Pencils",Cleaning & Household,Stationery,20.0,33.5,21.8,14606.0
+P0169,Tru Litchi,Amul,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,8.0,19.0,12.0,1824.0
+P0170,Tru Orange,Amul,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,23.7,11.7,22.3,6183.566999999999
+P0171,Tru Apple,Amul,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,4.5,17.0,4.5,344.25
+P0172,Daily Fresh Dahi,Britannia,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,28.0,4.5,28.0,3528.0
+P0173,Dishwash Bar,Pril,Curd,"Bakery, Cakes & Dairy",Dairy,2.0,27.0,21.0,1134.0
+P0174,Active - Detergent Cake Blue,Wheel,Dishwash Bars & Powders,Cleaning & Household,Detergents & Dishwash,3.0,17.0,9.0,459.0
+P0175,Strawberry Drink,Ala Fresh,Detergent Bars,Cleaning & Household,Detergents & Dishwash,2.0,20.0,10.0,400.0
+P0176,Apple Drink,Ala Fresh,Gourmet Juices & Drinks,Gourmet & World Food,Drinks & Beverages,,,,
+P0177,Pineapple Drink,Ala Fresh,Gourmet Juices & Drinks,Gourmet & World Food,Drinks & Beverages,1.0,12.0,8.0,96.0
+P0178,Watermelon Drink,Ala Fresh,Gourmet Juices & Drinks,Gourmet & World Food,Drinks & Beverages,3.5,16.5,4.5,259.875
+P0179,Orange Drink,Ala Fresh,Gourmet Juices & Drinks,Gourmet & World Food,Drinks & Beverages,7.0,14.0,12.0,1176.0
+P0180,Litchi Drink,Ala Fresh,Gourmet Juices & Drinks,Gourmet & World Food,Drinks & Beverages,22.0,59.0,29.0,37642.0
+P0181,Kiwi Drink,Ala Fresh,Gourmet Juices & Drinks,Gourmet & World Food,Drinks & Beverages,4.1,17.3,10.1,716.3929999999999
+P0182,Apple Juice Based Drink,Appy Fizz,Gourmet Juices & Drinks,Gourmet & World Food,Drinks & Beverages,5.0,37.0,27.0,4995.0
+P0183,Mint - Organically Grown,Fresho,Cold Drinks,Beverages,Energy & Soft Drinks,14.2,3.8,11.0,593.56
+P0184,Lemon Grass,Fresho,Organic Vegetables,Fruits & Vegetables,Exotic Fruits & Veggies,6.0,30.0,10.0,1800.0
+P0185,"Sanitary Napkin - Extra Long, Travel Pack",Niine,Indian & Exotic Herbs,Fruits & Vegetables,Exotic Fruits & Veggies,1.0,20.0,30.0,600.0
+P0186,Cabbage,Fresho,Sanitary Napkins,Beauty & Hygiene,Feminine Hygiene,8.0,16.0,8.0,1024.0
+P0187,Cucumber,Fresho,Cabbage & Cauliflower,Fruits & Vegetables,Fresh Vegetables,9.0,25.0,19.0,4275.0
+P0188,Colocasia,Fresho,Cucumber & Capsicum,Fruits & Vegetables,Fresh Vegetables,10.0,30.0,25.0,7500.0
+P0189,Betel Leaf,Fresho,Root Vegetables,Fruits & Vegetables,Fresh Vegetables,4.0,14.7,11.0,646.8
+P0190,Colocasia - Organically Grown,Fresho,Leafy Vegetables,Fruits & Vegetables,Fresh Vegetables,6.0,19.0,14.0,1596.0
+P0192,Colocasia - Organically Grown,Fresho,Organic Vegetables,Fruits & Vegetables,Fresh Vegetables,15.0,15.0,40.0,9000.0
+P0193,Organic Garlic Powder - Dehydrated,Bb Royal,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,6.0,3.0,6.0,108.0
+P0194,Orange Chewy Dragees,Mentos,Organic Masalas & Spices,"Foodgrains, Oil & Masala",Organic Staples,6.0,7.0,9.0,378.0
+P0195,Moonfils Orange,Bauli,"Toffee, Candy & Lollypop",Snacks & Branded Foods,Chocolates & Candies,6.5,7.5,12.0,585.0
+P0196,Beetroot,Fresho,"Croissants, Bagels","Bakery, Cakes & Dairy",Gourmet Breads,5.0,23.0,20.0,2300.0
+P0197,Basale Leaf,Fresho,Root Vegetables,Fruits & Vegetables,Fresh Vegetables,6.0,18.0,10.0,1080.0
+P0198,Pain Relief Cream,Moov,Leafy Vegetables,Fruits & Vegetables,Fresh Vegetables,1.0,16.0,3.0,48.0
+P0199,Yippee Magic Masala Noodles,Sunfeast,Everyday Medicine,Beauty & Hygiene,Health & Medicine,15.0,24.9,9.3,3473.55
+P0200,1-2-3 Noodles - Chicken Flavour,Wai Wai,Instant Noodles,Snacks & Branded Foods,"Noodle, Pasta, Vermicelli",4.0,13.5,9.0,486.0
+P0201,1-2-3 Noodles - Veg Masala Flavour,Wai Wai,Instant Noodles,Snacks & Branded Foods,"Noodle, Pasta, Vermicelli",3.0,14.5,4.9,213.15
+P0202,"Capsicum - Green, Organically Grown",Fresho,Instant Noodles,Snacks & Branded Foods,"Noodle, Pasta, Vermicelli",1.0,1.0,1.0,1.0
+P0203,Puja Wicks - Lingam Batti,Jaji,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,1.0,1.0,1.0,1.0
+P0204,1-2-3 Noodles - Chicken Flavour,Wai Wai,Camphor & Wicks,Cleaning & Household,Pooja Needs,1.6,24.0,7.0,268.80000000000007
+P0205,1-2-3 Noodles - Veg Masala Flavour,Wai Wai,Instant Noodles,Snacks & Branded Foods,Snacks & Namkeen,4.0,17.5,10.0,700.0
+P0206,Khatta Meetha,Tasties,Instant Noodles,Snacks & Branded Foods,Snacks & Namkeen,6.0,12.0,6.0,432.0
+P0208,Moong Dal,Tasties,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,1.0,1.0,1.0,1.0
+P0209,Aloo Bhujia,Tasties,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,6.0,30.4,20.0,3647.9999999999995
+P0210,Cube Detergent Bar 2 In 1,Ok,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,5.2,33.5,12.0,2090.4
+P0211,"Capsicum - Green, Organically Grown",Fresho,Detergent Bars,Cleaning & Household,Detergents & Dishwash,14.0,7.2,15.7,1582.56
+P0212,Snake Gourd,Fresho,Organic Vegetables,Fruits & Vegetables,Exotic Fruits & Veggies,6.5,12.0,18.5,1443.0
+P0213,"Chilli - Green Long, Medium",Fresho,"Gourd, Pumpkin, Drumstick",Fruits & Vegetables,Fresh Vegetables,1.5,24.0,7.0,252.0
+P0214,"Gold Glow Face Wash For Radiant Skin With Gold, Chandan, Turmeric",Olivia,"Lemon, Ginger & Garlic",Fruits & Vegetables,Herbs & Seasonings,,,,
+P0215,"Ultra-Fresh Fairness Face Wash With Milk, Licorice, Saffron",Olivia,Face Care,Beauty & Hygiene,Skin Care,3.0,12.0,10.0,360.0
+P0216,"Herbal Acne Repair Face Wash For Clear Skin With Neem, Tulsi, Aloe Vera",Olivia,Face Care,Beauty & Hygiene,Skin Care,1.0,1.0,1.0,1.0
+P0217,Safal Steel Scrubber,Exo,Face Care,Beauty & Hygiene,Skin Care,8.0,6.0,14.0,672.0
+P0218,Spring Onion,Fresho,"Utensil Scrub-Pad, Glove",Cleaning & Household,"Mops, Brushes & Scrubs",7.5,15.0,13.0,1462.5
+P0219,Coccinia - Organically Grown,Fresho,Leafy Vegetables,Fruits & Vegetables,Fresh Vegetables,8.7,12.5,8.7,946.1249999999998
+P0220,Drumstick - Organically Grown,Fresho,Organic Vegetables,Fruits & Vegetables,Fresh Vegetables,5.0,17.0,13.0,1105.0
+P0221,Neem Giloy (Amruta Balli) - Organically Grown,Fresho,Organic Vegetables,Fruits & Vegetables,Fresh Vegetables,2.7,12.0,6.0,194.40000000000003
+P0222,Curry Leaves - Organically Grown,Fresho,Organic Vegetables,Fruits & Vegetables,Herbs & Seasonings,14.5,20.5,18.0,5350.5
+P0223,Coccinia - Organically Grown,Fresho,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,5.3,23.7,11.1,1394.2709999999997
+P0224,Drumstick - Organically Grown,Fresho,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,13.0,19.0,15.0,3705.0
+P0225,Neem Giloy (Amruta Balli) - Organically Grown,Fresho,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,4.0,8.0,4.0,128.0
+P0226,Post It - 1.5 X 2 Inches,Oddy,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,6.5,7.0,6.5,295.75
+P0227,"Treat Croissant - Cocoa Creme Roll, 100% Veg",Britannia,"Scissor, Glue & Tape",Cleaning & Household,Stationery,2.0,27.0,21.0,1134.0
+P0228,"Treat Croissant - Vanilla Creme Roll, 100% Veg",Britannia,Gourmet Bread,"Bakery, Cakes & Dairy",Cakes & Pastries,5.0,28.0,16.0,2240.0
+P0229,"Treat Croissant - Cocoa Creme Roll, 100% Veg",Britannia,Gourmet Bread,"Bakery, Cakes & Dairy",Cakes & Pastries,5.6,8.4,5.6,263.424
+P0230,"Treat Croissant - Vanilla Creme Roll, 100% Veg",Britannia,Gourmet Bread,"Bakery, Cakes & Dairy",Gourmet Breads,2.0,36.0,19.5,1404.0
+P0231,Masala - Lemon Rice Powder,Mtr,Gourmet Bread,"Bakery, Cakes & Dairy",Gourmet Breads,3.7,18.9,7.7,538.4609999999999
+P0232,Masala - Tomato Rice Powder,Mtr,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,2.3,17.0,7.3,285.42999999999995
+P0233,Nacho Crisps - Tikka Masala,Cornitos,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,1.0,56.0,30.0,1680.0
+P0234,Nacho Crisps - Tomato Mexicana,Cornitos,Nachos & Chips,Gourmet & World Food,"Snacks, Dry Fruits, Nuts",10.9,35.1,23.2,8876.088
+P0235,Nacho Crisps - Cheese & Herbs,Cornitos,Nachos & Chips,Gourmet & World Food,"Snacks, Dry Fruits, Nuts",15.0,31.2,11.8,5522.400000000001
+P0237,Nacho Crisps - Barbeque,Cornitos,Nachos & Chips,Gourmet & World Food,"Snacks, Dry Fruits, Nuts",24.0,77.0,2.0,3696.0
+P0238,Chewy Candy Stick - Strawberry Flavour,Mentos,Nachos & Chips,Gourmet & World Food,"Snacks, Dry Fruits, Nuts",6.0,20.0,6.0,720.0
+P0239,Chalk Cockroach Killer,Hit,Mints & Chewing Gum,Snacks & Branded Foods,Chocolates & Candies,4.0,18.0,14.0,1008.0
+P0240,Capsicum - Green,Fresho,Insect Repellent,Cleaning & Household,Fresheners & Repellents,9.4,14.0,8.0,1052.8
+P0241,Beans - Cluster,Fresho,Cucumber & Capsicum,Fruits & Vegetables,Fresh Vegetables,5.0,13.8,5.0,345.0
+P0242,Brinjal - Varikatri,Fresho,"Beans, Brinjals & Okra",Fruits & Vegetables,Fresh Vegetables,4.3,17.5,4.3,323.575
+P0243,Tomato - Hybrid,Fresho,"Beans, Brinjals & Okra",Fruits & Vegetables,Fresh Vegetables,1.0,1.0,1.0,1.0
+P0245,Bitter Gourd - Organically Grown,Fresho,"Potato, Onion & Tomato",Fruits & Vegetables,Fresh Vegetables,1.5,7.6,16.5,188.09999999999997
+P0246,Lettuce - Green,Fresho,Organic Vegetables,Fruits & Vegetables,Fresh Vegetables,1.6,21.0,14.0,470.40000000000003
+P0247,Fresh Turmeric - Organically Grown,Fresho,Exotic Vegetables,Fruits & Vegetables,Fresh Vegetables,5.0,28.0,15.0,2100.0
+P0249,"Chilli - Bajji, Mild",Fresho,Organic Vegetables,Fruits & Vegetables,Herbs & Seasonings,7.7,25.5,7.7,1511.895
+P0250,Mustard/Sasive/Rai - Small,Bb Popular,"Lemon, Ginger & Garlic",Fruits & Vegetables,Herbs & Seasonings,4.0,16.3,10.8,704.1600000000001
+P0251,Bitter Gourd - Organically Grown,Fresho,Whole Spices,"Foodgrains, Oil & Masala",Masalas & Spices,8.0,18.0,13.0,1872.0
+P0252,Fresh Turmeric - Organically Grown,Fresho,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,2.0,14.0,7.0,196.0
+P0253,Salt/Uppu - Free Flow,Akar,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,4.0,20.0,6.0,480.0
+P0254,Lettuce - Green,Fresho,Salts,"Foodgrains, Oil & Masala","Salt, Sugar & Jaggery",3.0,5.0,17.0,255.0
+P0255,Snake Gourd - Organically Grown,Fresho,Exotic Vegetables,Fruits & Vegetables,Exotic Fruits & Veggies,6.0,9.0,7.5,405.0
+P0256,Toothbrush - Junior,Patanjali,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,5.8,21.1,5.8,709.8040000000001
+P0257,Aloe Vera Kanti - Body Cleanser Soap,Patanjali,Baby Oral Care,Baby Care,Baby Bath & Hygiene,6.0,7.0,13.0,546.0
+P0258,Marie Light Biscuit - Vita Orange,Sunfeast,Shower Gel & Body Wash,Beauty & Hygiene,Bath & Hand Wash,6.0,19.0,13.0,1482.0
+P0259,Kitkat 2 Fingers,Nestle,"Marie, Health, Digestive",Snacks & Branded Foods,Biscuits & Cookies,,,,
+P0260,Platina - Nutricrunch Digestive Marie,Parle,Chocolates,Snacks & Branded Foods,Biscuits & Cookies,4.5,16.0,8.0,576.0
+P0261,Nutrichoice Oats Cookies - Orange Almond,Britannia,"Marie, Health, Digestive",Snacks & Branded Foods,Biscuits & Cookies,2.0,21.5,13.5,580.5
+P0263,Nutrichoice Oats Cookies - Milk Almond,Britannia,"Marie, Health, Digestive",Snacks & Branded Foods,Biscuits & Cookies,25.0,18.0,2.0,900.0
+P0264,Bun - Burger,English Oven,"Marie, Health, Digestive",Snacks & Branded Foods,Biscuits & Cookies,4.0,4.0,15.0,240.0
+P0265,Masala Oats - Classic Masala,Saffola,"Buns, Pavs & Pizza Base","Bakery, Cakes & Dairy",Breads & Buns,6.5,11.5,6.5,485.875
+P0266,Masala Oats - Masala & Coriander,Saffola,Oats & Porridge,Snacks & Branded Foods,Breakfast Cereals,10.0,23.0,25.5,5865.0
+P0267,Masala Oats - Peppy Tomato,Saffola,Oats & Porridge,Snacks & Branded Foods,Breakfast Cereals,15.0,5.0,25.0,1875.0
+P0268,Masala Oats - Curry & Pepper,Saffola,Oats & Porridge,Snacks & Branded Foods,Breakfast Cereals,4.5,13.0,9.0,526.5
+P0269,Masala Oats - Pongal Surprise,Saffola,Oats & Porridge,Snacks & Branded Foods,Breakfast Cereals,6.0,23.0,18.0,2484.0
+P0270,Moonfils - Vanilla,Bauli,Oats & Porridge,Snacks & Branded Foods,Breakfast Cereals,5.0,28.0,16.0,2240.0
+P0271,Pineapple Cake,Britannia,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,24.0,1.5,38.0,1368.0
+P0272,Moonfils Veg - Choco,Bauli,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,7.4,19.5,12.9,1861.4700000000003
+P0274,Moonfils - Strawberry,Bauli,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,3.5,12.0,50.0,2100.0
+P0275,Gobbles Orange Bites Cake,Britannia,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,3.0,3.0,12.0,108.0
+P0276,Milk Cake,Britannia,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,5.0,20.2,8.0,808.0
+P0277,Moonfils Veg - Strawberry,Bauli,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,6.7,24.0,7.5,1206.0
+P0278,Kitkat 2 Fingers,Nestle,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,1.0,1.0,1.0,1.0
+P0279,Chewy Candy Stick - Mint Flavour,Mentos,Chocolates,Snacks & Branded Foods,Chocolates & Candies,5.2,15.0,7.3,569.4
+P0280,Marigold Flower - Yellow,Fresho,"Toffee, Candy & Lollypop",Snacks & Branded Foods,Chocolates & Candies,6.0,19.0,13.0,1482.0
+P0281,Bottle Gourd,Fresho,Marigold,Fruits & Vegetables,"Flower Bouquets, Bunches",6.0,19.0,6.0,684.0
+P0282,Ash Gourd - Cut,Fresho,"Gourd, Pumpkin, Drumstick",Fruits & Vegetables,Fresh Vegetables,10.0,11.0,11.0,1210.0
+P0283,Baby Corn - Unpeeled,Fresho,Cut & Peeled Veggies,Fruits & Vegetables,Fresh Vegetables,1.5,12.0,17.0,306.0
+P0284,Drink - Fresh 'N' Juicy Mango,Frooti,Exotic Vegetables,Fruits & Vegetables,Fresh Vegetables,5.0,28.0,11.0,1540.0
+P0285,Moonfils Choco Cream,Bauli,Juices,Beverages,Fruit Juices & Drinks,3.5,21.0,9.0,661.5
+P0286,Comb - 5 Flat Pocket Derby No 58,Ego Of Paris,"Croissants, Bagels","Bakery, Cakes & Dairy",Gourmet Breads,4.5,13.0,9.0,526.5
+P0287,Shanti - Badam Amla Hair Oil,Nihar,Tools & Accessories,Beauty & Hygiene,Hair Care,7.3,10.6,7.3,564.8739999999999
+P0289,Comb - Derby Deluxe No 05,Ego Of Paris,Hair Oil & Serum,Beauty & Hygiene,Hair Care,1.0,1.0,1.0,1.0
+P0290,Ginger,Fresho,Tools & Accessories,Beauty & Hygiene,Hair Care,5.0,19.0,13.0,1235.0
+P0291,Ready Masala - Hyderabadi Biryani,Kohinoor,"Lemon, Ginger & Garlic",Fruits & Vegetables,Herbs & Seasonings,5.0,28.0,16.0,2240.0
+P0292,Ready Masala - Punjabi Paneer,Kohinoor,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,8.8,15.1,8.8,1169.344
+P0293,Ready Masala - Mumbai Pav Bhaji,Kohinoor,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,3.0,23.5,17.0,1198.5
+P0294,Ready Masala - Dilli Choley,Kohinoor,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,9.0,31.0,9.0,2511.0
+P0295,Ready Masala - Jammu Rajma,Kohinoor,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,5.0,28.0,16.0,2240.0
+P0296,Ready Masala - Punjabi Butter Chicken,Kohinoor,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,3.5,3.0,14.0,147.0
+P0297,Instant Creamy Cup-A-Soup - Spinach,Keya,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,11.5,18.0,11.5,2380.5
+P0298,Scrub Pad,Scotch Brite,Herbs & Seasoning,"Foodgrains, Oil & Masala",Masalas & Spices,,,,
+P0299,Anti Bacto Scrub,Exo,"Utensil Scrub-Pad, Glove",Cleaning & Household,"Mops, Brushes & Scrubs",11.0,5.0,6.0,330.0
+P0300,Scrub Pad - Medium,Scrubit,"Utensil Scrub-Pad, Glove",Cleaning & Household,"Mops, Brushes & Scrubs",11.0,27.0,19.0,5643.0
+P0301,Noodles - Chicken,Top Ramen,"Utensil Scrub-Pad, Glove",Cleaning & Household,"Mops, Brushes & Scrubs",5.0,12.0,8.0,480.0
+P0302,Mogra Agarbatti,Arham,Instant Noodles,Snacks & Branded Foods,"Noodle, Pasta, Vermicelli",15.0,28.0,60.0,25200.0
+P0303,Herbal Incense Sticks - Goudhooli,Gou Ganga,"Agarbatti, Incense Sticks",Cleaning & Household,Pooja Needs,6.0,17.0,10.0,1020.0
+P0304,Cup-A-Soup - Chicken Delite,Knorr,"Agarbatti, Incense Sticks",Cleaning & Household,Pooja Needs,3.9,15.4,8.1,486.486
+P0305,Instant Creamy - Mushroom Soup,Keya,Soups,Snacks & Branded Foods,Ready To Cook & Eat,14.0,35.0,14.0,6860.0
+P0309,Instant Cup-A-Soup - Creamy Chicken,Keya,Soups,Snacks & Branded Foods,Ready To Cook & Eat,30.0,31.0,42.0,39060.0
+P0310,Instant Creamy Cup-A-Soup - Tomato,Keya,Soups,Snacks & Branded Foods,Ready To Cook & Eat,5.0,15.0,10.0,750.0
+P0311,Instant Cup-A-Soup - Hot & Sour Vegetable,Keya,Soups,Snacks & Branded Foods,Ready To Cook & Eat,1.0,20.0,30.0,600.0
+P0312,Instant Soup - Creamy Mix Veg,Keya,Soups,Snacks & Branded Foods,Ready To Cook & Eat,6.0,10.0,8.0,480.0
+P0313,Instant Cup-A-Soup - Sweet Corn Vegetable,Keya,Soups,Snacks & Branded Foods,Ready To Cook & Eat,11.8,24.6,9.3,2699.6040000000003
+P0314,Namak,Patanjali,Soups,Snacks & Branded Foods,Ready To Cook & Eat,3.0,18.0,10.0,540.0
+P0316,Masala Oats - Classic Masala,Saffola,Salts,"Foodgrains, Oil & Masala","Salt, Sugar & Jaggery",1.0,1.0,1.0,1.0
+P0317,Masala Oats - Masala & Coriander,Saffola,Oats & Porridge,Snacks & Branded Foods,Snacks & Namkeen,3.1,19.0,8.8,518.32
+P0318,Masala Oats - Peppy Tomato,Saffola,Oats & Porridge,Snacks & Branded Foods,Snacks & Namkeen,3.0,14.0,10.0,420.0
+P0319,Masala Oats - Curry & Pepper,Saffola,Oats & Porridge,Snacks & Branded Foods,Snacks & Namkeen,7.5,21.1,4.3,680.475
+P0321,Corn Rings - Masala Mania,Crax,Oats & Porridge,Snacks & Branded Foods,Snacks & Namkeen,4.3,23.3,8.5,851.615
+P0322,Fritts - Cream & Onion,Crax,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,59.0,88.0,59.0,306328.0
+P0323,Corn Rings - Tangy Tomato,Crax,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,6.0,32.5,23.0,4485.0
+P0324,Masala Oats - Pongal Surprise,Saffola,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,7.5,12.5,7.5,703.125
+P0325,Flax Seeds,The Nibble Box,Oats & Porridge,Snacks & Branded Foods,Snacks & Namkeen,6.0,18.5,11.0,1221.0
+P0326,Fresh Tomato Ketchup,Kissan,Dry Fruits & Berries,Gourmet & World Food,"Snacks, Dry Fruits, Nuts",3.0,18.0,10.0,540.0
+P0327,"Mechanical Pencil - Da Vinci Ii, 0.7Mm",Classmate,Tomato Ketchup & Sauces,Snacks & Branded Foods,"Spreads, Sauces, Ketchup",2.0,4.0,13.0,104.0
+P0328,Ash Gourd - Cut,Fresho,"Pen, Pencils",Cleaning & Household,Stationery,2.0,7.0,11.0,154.0
+P0329,"Butter Milk - Uht, Spicy",Godrej Jersey,Cut & Peeled Veggies,Fruits & Vegetables,Cuts & Sprouts,5.0,49.5,2.5,618.75
+P0330,Soya Chunks - Mini,Nutrela,Buttermilk & Lassi,"Bakery, Cakes & Dairy",Dairy,5.0,10.0,5.0,250.0
+P0331,Soya Chunks,Nutrela,Cereals & Millets,"Foodgrains, Oil & Masala",Dals & Pulses,40.6,37.0,36.5,54830.3
+P0332,Filter Coffee,Lavazza,Cereals & Millets,"Foodgrains, Oil & Masala",Dals & Pulses,6.9,13.2,6.9,628.452
+P0333,Baby Corn - Unpeeled,Fresho,Coffee & Pre-Mix,Gourmet & World Food,Drinks & Beverages,7.5,21.0,10.5,1653.75
+P0334,7 O Clock - Ready Ii Disposable Razor,Gillette,Exotic Vegetables,Fruits & Vegetables,Exotic Fruits & Veggies,6.0,20.0,6.0,720.0
+P0335,Sweet Potato,Fresho,Shaving Care,Beauty & Hygiene,Men'S Grooming,4.1,11.0,4.1,184.90999999999997
+P0336,Gold Caramel Candy Stick,Alpenliebe,"Potato, Onion & Tomato",Fruits & Vegetables,Fresh Vegetables,11.0,43.0,24.0,11352.0
+P0337,Classic Milk Chocolate Candy,Nestle,"Toffee, Candy & Lollypop",Snacks & Branded Foods,Chocolates & Candies,17.0,40.0,30.0,20400.0
+P0339,"Chocolate Bar - Bar One, Charge",Nestle,Chocolates,Snacks & Branded Foods,Chocolates & Candies,12.0,16.0,11.8,2265.6000000000004
+P0340,Lettuce - Romaine,Fresho,Chocolates,Snacks & Branded Foods,Chocolates & Candies,5.0,20.0,13.0,1300.0
+P0341,Lettuce - Red,Fresho,Exotic Vegetables,Fruits & Vegetables,Fresh Vegetables,8.5,29.1,5.8,1434.63
+P0342,Leeks,Fresho,Exotic Vegetables,Fruits & Vegetables,Fresh Vegetables,4.5,14.0,15.0,945.0
+P0343,Raw Mango,Fresho,Exotic Vegetables,Fruits & Vegetables,Fresh Vegetables,3.0,6.0,4.0,72.0
+P0344,Tasty Twist Sizzling Tandoori Multi-Use Seasoning,Kohinoor,Seasonal Fruits,Fruits & Vegetables,Fresh Fruits,,,,
+P0345,Tasty Twist Dilli Chatpata Multi-Use Seasoning,Kohinoor,Herbs & Seasoning,"Foodgrains, Oil & Masala",Masalas & Spices,7.0,23.6,8.0,1321.6000000000001
+P0346,Tasty Twist Zingy Schezwan Multi-Use Seasoning,Kohinoor,Herbs & Seasoning,"Foodgrains, Oil & Masala",Masalas & Spices,9.0,12.0,9.0,972.0
+P0347,Tasty Twist Mumbai Chowpatty Multi-Use Seasoning,Kohinoor,Herbs & Seasoning,"Foodgrains, Oil & Masala",Masalas & Spices,4.0,9.0,9.0,324.0
+P0348,Tasty Twist Special Navratan Multi-Use Seasoning,Kohinoor,Herbs & Seasoning,"Foodgrains, Oil & Masala",Masalas & Spices,7.4,15.3,12.9,1460.5380000000002
+P0350,Kumkum,Gopuram,Herbs & Seasoning,"Foodgrains, Oil & Masala",Masalas & Spices,2.0,15.0,10.0,300.0
+P0351,Winter Glow Face Cream,Glow & Lovely,Other Pooja Needs,Cleaning & Household,Pooja Needs,1.8,11.2,9.5,191.52
+P0352,Water Plus,Tata,Face Care,Beauty & Hygiene,Skin Care,5.0,20.0,15.0,1500.0
+P0353,Organic Spouts Horse Gram,Fresho,Packaged Water,Beverages,Water,4.0,22.0,7.5,660.0
+P0354,Lettuce - Romaine,Fresho,Fresh Salads & Sprouts,Fruits & Vegetables,Cuts & Sprouts,5.0,28.0,16.0,2240.0
+P0355,Lettuce - Red,Fresho,Exotic Vegetables,Fruits & Vegetables,Exotic Fruits & Veggies,30.0,5.0,28.0,4200.0
+P0356,Leeks,Fresho,Exotic Vegetables,Fruits & Vegetables,Exotic Fruits & Veggies,2.0,6.0,10.0,120.0
+P0357,Turmeric Powder/Arisina Pudi,Eastern,Exotic Vegetables,Fruits & Vegetables,Exotic Fruits & Veggies,1.0,1.0,1.0,1.0
+P0358,Celery,Fresho,Powdered Spices,"Foodgrains, Oil & Masala",Masalas & Spices,10.0,10.0,10.0,1000.0
+P0360,Celery,Fresho,Indian & Exotic Herbs,Fruits & Vegetables,Herbs & Seasonings,5.0,28.0,16.0,2240.0
+P0361,Hommade - Imli Sauce (Saunth),Dabur,Indian & Exotic Herbs,Fruits & Vegetables,Exotic Fruits & Veggies,6.0,48.0,6.0,1728.0
+P0362,Chow Chow,Fresho,Tomato Ketchup & Sauces,Snacks & Branded Foods,"Spreads, Sauces, Ketchup",6.0,7.0,12.2,512.4
+P0363,Tapioca,Fresho,"Gourd, Pumpkin, Drumstick",Fruits & Vegetables,Fresh Vegetables,5.0,12.0,8.0,480.0
+P0364,Black Mustard/Sasive/Rai - Big,Bb Popular,Root Vegetables,Fruits & Vegetables,Fresh Vegetables,4.0,4.0,12.5,200.0
+P0365,Toothbrush - Triple Clean Soft,Pepsodent,Whole Spices,"Foodgrains, Oil & Masala",Masalas & Spices,8.0,14.0,40.5,4536.0
+P0366,Triple Clean Toothbrush - Medium,Pepsodent,Toothbrush,Beauty & Hygiene,Oral Care,6.8,8.5,7.0,404.59999999999997
+P0367,"Dog Treats - Real Chicken Biscuits, Chicken Flavour",Purepet,Toothbrush,Beauty & Hygiene,Oral Care,3.0,26.5,17.0,1351.5
+P0368,"Dog Food - Chicken & Egg, Adult",Drools,Pet Meals & Treats,"Kitchen, Garden & Pets",Pet Food & Accessories,2.5,11.5,11.5,330.625
+P0369,Salt/Uppu - Crystal,Akar,Pet Meals & Treats,"Kitchen, Garden & Pets",Pet Food & Accessories,7.0,8.0,13.0,728.0
+P0370,Skin Lightening Natural Fruit Bleach,Olivia,Salts,"Foodgrains, Oil & Masala","Salt, Sugar & Jaggery",2.0,21.0,11.0,462.0
+P0371,Skin Lightening Shiner Bleach With Diamond Dust,Olivia,Face Care,Beauty & Hygiene,Skin Care,6.2,16.8,6.2,645.792
+P0372,Skin Lightening Oxygen Bleach - Rich Fairness,Olivia,Face Care,Beauty & Hygiene,Skin Care,2.0,7.0,2.5,35.0
+P0373,Mini Puffs - Cheese N Herbs,Gooddiet,Face Care,Beauty & Hygiene,Skin Care,5.0,18.0,14.0,1260.0
+P0374,Packaged Drinking Water,Bindu,"Healthy, Baked Snacks",Gourmet & World Food,"Snacks, Dry Fruits, Nuts",27.0,26.5,25.0,17887.5
+P0375,Anti Bacteria Fabric Stiffener - Instant Starch,Revive,Packaged Water,Beverages,Water,1.0,1.0,1.0,1.0
+P0376,Paste - Ginger Garlic,Eastern,"Detergent Powder, Liquid",Cleaning & Household,Detergents & Dishwash,2.0,13.0,8.0,208.0
+P0377,Powder - Tomato Rice,Annapoorna,Cooking Pastes,"Foodgrains, Oil & Masala",Masalas & Spices,2.0,27.0,21.0,1134.0
+P0379,Jeera Masala Flavoured Soda,Dhishoom,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,8.0,13.0,8.0,832.0
+P0380,Digestive Biscuits - No Added Sugar,Mcvities,Cold Drinks,Beverages,Energy & Soft Drinks,2.5,16.4,7.0,287.0
+P0381,Treat Stars - Creme & Milk Choco Duo Cream Biscuits,Britannia,Cookies,Snacks & Branded Foods,Biscuits & Cookies,2.0,9.0,3.0,54.0
+P0382,Treat Stars - Creme & White Choco Duo Cream Biscuits,Britannia,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,3.2,13.7,12.7,556.768
+P0383,Masala Oats - Chinese,Saffola,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,24.0,8.0,18.0,3456.0
+P0384,Tapioca - Organically Grown,Fresho,Oats & Porridge,Snacks & Branded Foods,Breakfast Cereals,1.0,1.0,1.0,1.0
+P0385,Pre Mixed Cubes - Rat Killer,Hit,Organic Vegetables,Fruits & Vegetables,Fresh Vegetables,3.8,15.4,6.6,386.23199999999997
+P0386,Green Chilly - Chopped,Fresho,Insect Repellent,Cleaning & Household,Fresheners & Repellents,9.2,16.0,6.5,956.8
+P0387,Chat Masala,Bb Royal,Cut & Peeled Veggies,Fruits & Vegetables,Herbs & Seasonings,2.0,10.0,8.0,160.0
+P0388,Pani Puri Masala,Bb Royal,Powdered Spices,"Foodgrains, Oil & Masala",Masalas & Spices,1.0,20.0,30.0,600.0
+P0389,Sambar Masala,Bb Royal,Powdered Spices,"Foodgrains, Oil & Masala",Masalas & Spices,10.2,31.7,10.2,3298.0679999999993
+P0390,Paneer Masala,Bb Royal,Powdered Spices,"Foodgrains, Oil & Masala",Masalas & Spices,4.5,17.0,4.5,344.25
+P0391,Powder - Chilli,Aashirvaad,Powdered Spices,"Foodgrains, Oil & Masala",Masalas & Spices,6.8,22.0,14.0,2094.4
+P0392,Fennel/Saunf/Sompu - Small,Bb Popular,Powdered Spices,"Foodgrains, Oil & Masala",Masalas & Spices,6.0,32.5,40.5,7897.5
+P0393,Extra Clean Toothbrush Medium,Colgate,Whole Spices,"Foodgrains, Oil & Masala",Masalas & Spices,7.0,12.0,7.0,588.0
+P0394,Tapioca - Organically Grown,Fresho,Toothbrush,Beauty & Hygiene,Oral Care,14.0,6.0,3.0,252.0
+P0395,Instant Noodle - Special Chicken Flavour,Indomie,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,14.0,23.0,13.0,4186.0
+P0396,Instant Noodle - Chicken Flavour,Indomie,Imported Noodles,Gourmet & World Food,"Pasta, Soup & Noodles",3.0,7.0,3.0,63.0
+P0397,Candy - Kusari,Balaji Foods,Imported Noodles,Gourmet & World Food,"Pasta, Soup & Noodles",1.0,23.0,4.0,92.0
+P0398,Candy - Kusari,Kiara Foods,Other Pooja Needs,Cleaning & Household,Pooja Needs,5.0,5.0,5.0,125.0
+P0399,Synthetic Food Colour Preparation Kesar Yellow,999,Other Pooja Needs,Cleaning & Household,Pooja Needs,2.3,7.5,4.0,69.0
+P0400,Iodized,Tata Salt,Home Baking,Snacks & Branded Foods,Ready To Cook & Eat,2.0,27.0,21.0,1134.0
+P0401,Iodised Crystal Salt/Uppu,Tata Salt,Salts,"Foodgrains, Oil & Masala","Salt, Sugar & Jaggery",2.0,22.0,6.0,264.0
+P0402,Multigrain Chips - Tangy Tomato,Too Yumm!,Salts,"Foodgrains, Oil & Masala","Salt, Sugar & Jaggery",2.8,7.3,7.0,143.07999999999998
+P0403,Veggie Stix - Chilly Chataka,Too Yumm!,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,1.0,5.1,9.2,46.919999999999995
+P0405,Groovy Chips - Spicy Tomato,Time Pass,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,5.2,20.4,10.2,1082.0159999999998
+P0406,Time Pass Chips - Minty Pudina,Time Pass,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,4.5,4.5,31.0,627.75
+P0407,Masala Oats - Chinese,Saffola,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,5.0,28.0,16.0,2240.0
+P0408,Green Chilly - Chopped,Fresho,Oats & Porridge,Snacks & Branded Foods,Snacks & Namkeen,6.5,28.2,19.0,3482.7
+P0409,Kool - Kesar,Amul,Cut & Peeled Veggies,Fruits & Vegetables,Cuts & Sprouts,3.0,14.0,6.0,252.0
+P0410,Winkin Cow Classic Lassi,Britannia,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,16.5,1.0,8.0,132.0
+P0411,New Born - 2 Diaper Pants,Pampers,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,9.7,17.3,12.5,2097.625
+P0412,Soda - The Club,Bisleri,Diapers,Baby Care,Diapers & Wipes,4.0,11.3,4.0,180.8
+P0413,Cauliflower,Fresho,Soda & Cocktail Mix,Beverages,Energy & Soft Drinks,0.0,0.0,0.0,0.0
+P0414,Fenugreek/Methi/Menthya,Bb Popular,Cabbage & Cauliflower,Fruits & Vegetables,Fresh Vegetables,4.6,21.8,8.6,862.408
+P0415,Crystals - Citric Acid,Eagle,Whole Spices,"Foodgrains, Oil & Masala",Masalas & Spices,23.0,17.0,1.0,391.0
+P0416,Pineapple Flavouring Agent,Bush,Home Baking,Snacks & Branded Foods,Ready To Cook & Eat,5.0,28.0,16.0,2240.0
+P0417,Rose White Flavouring Agent,Bush,Home Baking,Snacks & Branded Foods,Ready To Cook & Eat,17.0,5.0,17.0,1445.0
+P0418,Farmlite Veda Digestive Biscuit,Sunfeast,Home Baking,Snacks & Branded Foods,Ready To Cook & Eat,3.0,16.0,8.0,384.0
+P0419,Cucumber - Organically Grown,Fresho,"Marie, Health, Digestive",Snacks & Branded Foods,Biscuits & Cookies,8.0,15.0,13.0,1560.0
+P0420,Mustard Leaves (Sarso Saag),Fresho,Organic Vegetables,Fruits & Vegetables,Fresh Vegetables,3.0,3.0,35.0,315.0
+P0421,Snake Gourd - Diced,Fresho,Leafy Vegetables,Fruits & Vegetables,Fresh Vegetables,5.0,28.0,16.0,2240.0
+P0422,Sugarcane - Diced,Fresho,Cut & Peeled Veggies,Fruits & Vegetables,Fresh Vegetables,5.0,16.0,6.0,480.0
+P0423,"Pineapple - Chunks, Single Serve",Fresho,"Cut Fruit, Tender Coconut",Fruits & Vegetables,Fresh Fruits,,,,
+P0424,Fruit Power - Masala Sugarcane,Real,"Cut Fruit, Tender Coconut",Fruits & Vegetables,Fresh Fruits,2.0,17.0,14.0,476.0
+P0425,Juice - Rose Lychee,B Natural,Juices,Beverages,Fruit Juices & Drinks,9.7,25.0,9.7,2352.2499999999995
+P0426,Juice - Pink Guava,B Natural,Juices,Beverages,Fruit Juices & Drinks,1.6,12.0,8.0,153.60000000000002
+P0427,Juice - Orange,B Natural,Juices,Beverages,Fruit Juices & Drinks,8.5,24.0,9.0,1836.0
+P0428,Mustard/Sasive/Rai - Yellow,Bb Royal,Juices,Beverages,Fruit Juices & Drinks,9.5,23.5,15.5,3460.375
+P0429,Black Salt/Kala Namak - Whole,Bb Royal,Whole Spices,"Foodgrains, Oil & Masala",Masalas & Spices,8.0,15.0,12.0,1440.0
+P0430,Ready Masala - Kashmiri Meat,Kohinoor,Whole Spices,"Foodgrains, Oil & Masala",Masalas & Spices,10.0,10.0,15.0,1500.0
+P0431,Kitchen Scrubber - Stainless Steel,Liao,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,5.0,21.0,11.3,1186.5
+P0432,Vermicelli,Anil,"Utensil Scrub-Pad, Glove",Cleaning & Household,"Mops, Brushes & Scrubs",13.6,7.0,14.4,1370.88
+P0433,Cucumber - Organically Grown,Fresho,Vermicelli,Snacks & Branded Foods,"Noodle, Pasta, Vermicelli",24.0,10.0,34.0,8160.0
+P0435,Birthday Candle - No. 5,B Vishal,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,1.0,4.0,10.0,40.0
+P0436,Birthday Candle - No. 1,B Vishal,"Caps, Balloons & Candles",Cleaning & Household,Party & Festive Needs,5.0,25.0,15.0,1875.0
+P0437,Namkeen - Cornflakes Masala,Sln,"Caps, Balloons & Candles",Cleaning & Household,Party & Festive Needs,9.0,23.0,13.0,2691.0
+P0438,Namkeen - Rice Kodubale,Sln,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,1.5,14.0,10.0,210.0
+P0439,"Crayons - Wax Colour, 75X8Mm",Classmate,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,2.5,17.0,13.0,552.5
+P0440,Sugarcane - Diced,Fresho,Colours & Crayons,Cleaning & Household,Stationery,5.0,5.0,5.0,125.0
+P0441,"Pineapple - Chunks, Single Serve",Fresho,"Cut Fruit, Tender Coconut",Fruits & Vegetables,Cuts & Sprouts,6.0,11.0,6.0,396.0
+P0442,Snake Gourd - Diced,Fresho,"Cut Fruit, Tender Coconut",Fruits & Vegetables,Cuts & Sprouts,7.1,16.4,7.1,826.7239999999998
+P0443,Cucumber - English,Fresho,Cut & Peeled Veggies,Fruits & Vegetables,Cuts & Sprouts,2.0,22.5,9.0,405.0
+P0444,Bitter Gourd,Fresho,Cucumber & Capsicum,Fruits & Vegetables,Fresh Vegetables,2.0,15.0,10.0,300.0
+P0445,Cucumber - English,Fresho,"Gourd, Pumpkin, Drumstick",Fruits & Vegetables,Fresh Vegetables,8.0,25.0,20.0,4000.0
+P0446,Hapima Crispy Fry Mix,Ajinomoto,Cucumber & Capsicum,Fruits & Vegetables,Exotic Fruits & Veggies,7.0,24.0,10.0,1680.0
+P0447,Prickly Heat Powder - Sandal,Dermi Cool,Rice & Other Flours,"Foodgrains, Oil & Masala","Atta, Flours & Sooji",6.5,7.0,17.5,796.25
+P0448,Milk Bikis Milk Cream Biscuits,Britannia,Talcum Powder,Beauty & Hygiene,Bath & Hand Wash,2.0,19.0,14.0,532.0
+P0450,Good Day Butter Cookies,Britannia,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,3.3,8.6,3.3,93.654
+P0451,Dream Cream - Strawberry Vanilla,Sunfeast,Cookies,Snacks & Branded Foods,Biscuits & Cookies,2.0,15.0,8.0,240.0
+P0452,Dream Cream - Choco Vanilla Biscuits,Sunfeast,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,8.0,6.0,26.5,1272.0
+P0453,Dream Cream Biscuits - Butterscotch Zing,Sunfeast,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,1.0,25.0,18.0,450.0
+P0454,Fruit Bread,Britannia,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,4.5,18.5,14.0,1165.5
+P0455,Bread - Fruit,English Oven,"Milk, White & Sandwich","Bakery, Cakes & Dairy",Breads & Buns,2.1,19.0,14.0,558.6
+P0456,Corn Flakes,Kelloggs,"Milk, White & Sandwich","Bakery, Cakes & Dairy",Breads & Buns,4.0,11.0,10.0,440.0
+P0457,Chocos Corn Flakes,Kelloggs,Flakes,Snacks & Branded Foods,Breakfast Cereals,5.0,28.0,16.0,2240.0
+P0458,"Snacks - Sticks, Carrot & Cumin, 2+ Years, 100% Natural & Healthy",Timios,Kids Cereal,Snacks & Branded Foods,Breakfast Cereals,4.0,6.5,11.0,286.0
+P0459,"Snacks - Rings, Tomato & Cheese, 2+ Years, 100% Natural & Healthy",Timios,Chips & Corn Snacks,Snacks & Branded Foods,Breakfast Cereals,9.5,34.5,9.5,3113.625
+P0460,"Snacks - Stars, Banana & Honey, 2+ Years, 100% Natural & Healthy",Timios,Chips & Corn Snacks,Snacks & Branded Foods,Breakfast Cereals,5.0,28.0,16.0,2240.0
+P0461,Yum Yum - Vanilla Cake,Milk Ma,Chips & Corn Snacks,Snacks & Branded Foods,Breakfast Cereals,7.0,20.0,13.0,1820.0
+P0462,Yum Yum - Pineapple Cake,Milk Ma,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,5.0,8.5,5.0,212.5
+P0463,Yum Yum - Chocolate Cake,Milk Ma,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,5.0,28.0,16.0,2240.0
+P0464,Millet Based Nutrition Bar - Classic,Ah!Rogya Bar,Tea Cakes & Slice Cakes,"Bakery, Cakes & Dairy",Cakes & Pastries,2.3,20.0,10.5,483.0
+P0465,Kitkat 3 Fingers,Nestle,Cereal & Granola Bars,Gourmet & World Food,Cereals & Breakfast,,,,
+P0466,Creamy Milky & Cocoa Chocolate With Extruded Rice,Kinder,Chocolates,Snacks & Branded Foods,Chocolates & Candies,4.5,7.0,7.0,220.5
+P0467,Choco Deck - French Dessert Inspired Layered Bar,Fabelle,Chocolates,Snacks & Branded Foods,Chocolates & Candies,2.5,17.0,7.0,297.5
+P0468,White Xylitol Sugarfree Spearmint Flavour Chewing Gum - Fliptop,Happydent,Chocolates,Snacks & Branded Foods,Chocolates & Candies,5.0,42.0,12.0,2520.0
+P0469,Rusk - Original,Elite,Mints & Chewing Gum,Snacks & Branded Foods,Chocolates & Candies,3.8,21.6,35.0,2872.7999999999997
+P0470,Multigrain Biscuit,Chai Point,Rusks,"Bakery, Cakes & Dairy","Cookies, Rusk & Khari",7.0,18.0,19.0,2394.0
+P0471,Masala Biscuit,Chai Point,"Bakery Biscuits, Cookies","Bakery, Cakes & Dairy","Cookies, Rusk & Khari",14.0,35.0,14.0,6860.0
+P0473,Amaranthus - Red,Fresho,"Bakery Biscuits, Cookies","Bakery, Cakes & Dairy","Cookies, Rusk & Khari",5.0,5.0,5.0,125.0
+P0474,Baby Potato,Fresho,Leafy Vegetables,Fruits & Vegetables,Fresh Vegetables,5.0,5.0,5.0,125.0
+P0475,Beetroot - Organically Grown,Fresho,Exotic Vegetables,Fruits & Vegetables,Fresh Vegetables,4.5,16.7,9.0,676.3499999999999
+P0476,Amaranthus - Green,Fresho,Organic Vegetables,Fruits & Vegetables,Fresh Vegetables,22.0,10.0,32.0,7040.0
+P0477,Gongura Leaves/Pulicha,Fresho,Leafy Vegetables,Fruits & Vegetables,Fresh Vegetables,1.0,15.0,7.0,105.0
+P0478,"Beans - Cluster, Organically Grown",Fresho,Leafy Vegetables,Fruits & Vegetables,Fresh Vegetables,3.0,17.0,12.5,637.5
+P0480,Arai Keerai,Fresho,Organic Vegetables,Fruits & Vegetables,Fresh Vegetables,5.0,15.2,9.9,752.4
+P0481,Snake Gourd - Organically Grown,Fresho,Leafy Vegetables,Fruits & Vegetables,Fresh Vegetables,5.0,24.0,16.0,1920.0
+P0482,Cabbage - Organically Grown,Fresho,Organic Vegetables,Fruits & Vegetables,Fresh Vegetables,,,,
+P0483,Chalk Strong - For Cockroaches,Krazy Lines,Organic Vegetables,Fruits & Vegetables,Fresh Vegetables,2.0,27.0,21.0,1134.0
+P0484,Grapes - Bangalore Blue With Seed,Fresho,Insect Repellent,Cleaning & Household,Fresheners & Repellents,1.0,1.0,1.0,1.0
+P0485,Banana - Raw Green,Fresho,Seasonal Fruits,Fruits & Vegetables,Fresh Fruits,8.5,12.0,16.0,1632.0
+P0486,Coconut - (For Kalash With Jatta),Fresho,"Banana, Sapota & Papaya",Fruits & Vegetables,Fresh Fruits,6.5,7.5,12.0,585.0
+P0487,Soft Drink - With Real Lemon Juice,7 Up Nimbooz,Seasonal Fruits,Fruits & Vegetables,Fresh Fruits,5.0,28.0,16.0,2240.0
+P0489,"Lychee Ras, Litchi Juice",Paper Boat,Juices,Beverages,Fruit Juices & Drinks,3.3,13.0,16.0,686.4
+P0490,Fruit Power Juice - Mango,Real,Juices,Beverages,Fruit Juices & Drinks,7.1,6.6,7.1,332.7059999999999
+P0491,Aam Panna - Mango Drink,Paper Boat,Juices,Beverages,Fruit Juices & Drinks,25.0,10.0,12.0,3000.0
+P0492,Amla Plus,Dabur,Juices,Beverages,Fruit Juices & Drinks,8.0,9.0,10.0,720.0
+P0493,Apple Juice Based Drink,Appy Fizz,Juices,Beverages,Fruit Juices & Drinks,4.0,45.0,12.0,2160.0
+P0494,Juice - Mixed Fruit & Dry Fruits,B Natural,Juices,Beverages,Fruit Juices & Drinks,10.0,14.0,11.0,1540.0
+P0495,Guava Delight Juice - Aseptic Pack,Tropicana,Juices,Beverages,Fruit Juices & Drinks,3.0,10.0,3.0,90.0
+P0496,Coconut Oil - 100 % Pure,Parachute,Juices,Beverages,Fruit Juices & Drinks,20.0,12.0,20.0,4800.0
+P0497,Comb - Derby Deluxe No 02,Ego Of Paris,Hair Oil & Serum,Beauty & Hygiene,Hair Care,4.0,11.0,21.0,924.0
+P0498,Cough Drops - Ginger,Vicks,Tools & Accessories,Beauty & Hygiene,Hair Care,20.0,35.0,24.0,16800.0
+P0499,Cough Drops - Menthol,Vicks,Everyday Medicine,Beauty & Hygiene,Health & Medicine,2.5,5.8,15.5,224.75
+P0500,Bay Leaf/Lavangada Ele,Bb Royal,Everyday Medicine,Beauty & Hygiene,Health & Medicine,8.0,23.0,8.0,1472.0
+P0501,Organic - Mustard/Sasive/Rai Yellow,Bb Royal,Whole Spices,"Foodgrains, Oil & Masala",Masalas & Spices,5.8,16.6,9.0,866.52
+P0502,Veg Dum Biryani Masala,Keya,Organic Masalas & Spices,"Foodgrains, Oil & Masala",Masalas & Spices,1.5,10.0,8.5,127.5
+P0503,Awadhi Kadhai Veg Masala,Keya,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,2.7,23.0,4.5,279.45
+P0504,Awadhi Kadhai Chicken Masala,Keya,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,4.5,16.7,9.0,676.3499999999999
+P0505,Masala - Chilly Gobi,Annapoorna,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,1.0,14.0,14.0,196.0
+P0506,Chakra Stainless Steel Scrub,Scotch Brite,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,2.5,16.5,16.5,680.625
+P0507,"Scrub Pad - Anti- Bacterial, Regular",Scotch Brite,"Utensil Scrub-Pad, Glove",Cleaning & Household,"Mops, Brushes & Scrubs",1.0,3.5,13.5,47.25
+P0508,Scrub Pad - Regular Large,Good Home,"Utensil Scrub-Pad, Glove",Cleaning & Household,"Mops, Brushes & Scrubs",1.0,25.0,7.0,175.0
+P0509,Fusian Hong Kong Spicy Garlic Noodles,Maggi,"Utensil Scrub-Pad, Glove",Cleaning & Household,"Mops, Brushes & Scrubs",4.4,22.0,8.8,851.8400000000001
+P0510,Strong Garlic Instant Noodles,A&M,Instant Noodles,Snacks & Branded Foods,"Noodle, Pasta, Vermicelli",4.9,21.3,8.4,876.7080000000001
+P0511,Super Shine Soft Bristle Toothbrush,Colgate,Instant Noodles,Snacks & Branded Foods,"Noodle, Pasta, Vermicelli",3.5,4.0,26.0,364.0
+P0512,Super Shine Medium Bristle Toothbrush,Colgate,Toothbrush,Beauty & Hygiene,Oral Care,5.0,26.0,10.0,1300.0
+P0513,Toothbrush Fighter - Soft,Pepsodent,Toothbrush,Beauty & Hygiene,Oral Care,5.0,35.0,5.0,875.0
+P0514,Tongue Scraper,Refresh Plus,Toothbrush,Beauty & Hygiene,Oral Care,2.0,27.0,21.0,1134.0
+P0515,Beetroot - Organically Grown,Fresho,Toothbrush,Beauty & Hygiene,Oral Care,40.0,30.0,40.0,48000.0
+P0516,Sweet Potato - Organically Grown,Fresho,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,20.0,30.0,34.0,20400.0
+P0517,"Beans - Cluster, Organically Grown",Fresho,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,5.0,28.0,16.0,2240.0
+P0518,Cabbage - Organically Grown,Fresho,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,2.0,19.0,10.5,399.0
+P0519,Organic - Mustard/Sasive/Rai Yellow,Bb Royal,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,1.0,11.0,2.5,27.5
+P0520,Fields Of Gold Organic Mustard/Sasive - Bold,Pristine,Organic Masalas & Spices,"Foodgrains, Oil & Masala",Organic Staples,6.2,16.8,6.2,645.792
+P0521,Surabhi Dhoop - Natural Perfume,Gou Ganga,Organic Masalas & Spices,"Foodgrains, Oil & Masala",Organic Staples,5.5,5.5,31.0,937.75
+P0522,Dhoop Cone,Om Sri Kar,Other Pooja Needs,Cleaning & Household,Pooja Needs,16.0,16.0,27.0,6912.0
+P0523,Powder - Viboothi,Murugesan,"Agarbatti, Incense Sticks",Cleaning & Household,Pooja Needs,3.0,17.0,12.0,612.0
+P0524,Pooja Essential,Gomutra,Other Pooja Needs,Cleaning & Household,Pooja Needs,2.0,25.0,9.0,450.0
+P0525,Agarbathi Natural Incense Sticks - Chandan Sandalwood,Gou Ganga,Other Pooja Needs,Cleaning & Household,Pooja Needs,6.0,17.0,17.0,1734.0
+P0526,Agarbathi - Velvet,Soft Touch,"Agarbatti, Incense Sticks",Cleaning & Household,Pooja Needs,1.0,1.0,1.0,1.0
+P0527,Puja Wicks - Pulla Vathulu Long Batti,Jaji,"Agarbatti, Incense Sticks",Cleaning & Household,Pooja Needs,4.5,20.0,15.5,1395.0
+P0528,Fragrance Of Temple Gold Tradition,Mangaldeep,Camphor & Wicks,Cleaning & Household,Pooja Needs,3.0,12.0,10.0,360.0
+P0529,Puja Flower Wicks - Puvvu Vathulu Batti,Jaji,"Agarbatti, Incense Sticks",Cleaning & Household,Pooja Needs,2.0,16.5,9.5,313.5
+P0531,Agarbathi Natural Incense Sticks - Lavender,Gou Ganga,Camphor & Wicks,Cleaning & Household,Pooja Needs,6.0,19.0,6.0,684.0
+P0532,Agarbathi - Natural Incense Sticks (Jasmine),Gou Ganga,"Agarbatti, Incense Sticks",Cleaning & Household,Pooja Needs,17.0,4.0,22.0,1496.0
+P0533,"Snacks - Sticks, Carrot & Cumin, 2+ Years, 100% Natural & Healthy",Timios,"Agarbatti, Incense Sticks",Cleaning & Household,Pooja Needs,6.0,6.0,15.0,540.0
+P0534,"Snacks - Rings, Tomato & Cheese, 2+ Years, 100% Natural & Healthy",Timios,Chips & Corn Snacks,Snacks & Branded Foods,Ready To Cook & Eat,3.0,17.0,9.0,459.0
+P0535,Synthetic Food Colour Preparation Orange Red,999,Chips & Corn Snacks,Snacks & Branded Foods,Ready To Cook & Eat,5.0,28.0,16.0,2240.0
+P0536,"Snacks - Stars, Banana & Honey, 2+ Years, 100% Natural & Healthy",Timios,Home Baking,Snacks & Branded Foods,Ready To Cook & Eat,7.0,22.0,7.0,1078.0
+P0537,Synthetic Food Colour Preparation Apple Green,999,Chips & Corn Snacks,Snacks & Branded Foods,Ready To Cook & Eat,4.4,18.6,7.5,613.8000000000002
+P0538,Synthetic Food Colour Preparation Lemon Yellow,999,Home Baking,Snacks & Branded Foods,Ready To Cook & Eat,24.5,6.3,31.9,4923.764999999999
+P0539,Masala Upma,Mom Meal Of The Moment,Home Baking,Snacks & Branded Foods,Ready To Cook & Eat,6.0,22.0,23.0,3036.0
+P0540,Khatta Meetha Poha,Mom,Heat & Eat Ready Meals,Snacks & Branded Foods,Ready To Cook & Eat,5.0,3.0,3.0,45.0
+P0541,Glucose - Liquid,Ask Foods,Heat & Eat Ready Meals,Snacks & Branded Foods,Ready To Cook & Eat,22.0,22.0,25.0,12100.0
+P0543,Salt/Uppu - Proactive,Aashirvaad,Home Baking,Snacks & Branded Foods,Ready To Cook & Eat,5.5,12.5,12.0,825.0
+P0544,Black Salt/Uppu Powder,Grocery Farm,Salts,"Foodgrains, Oil & Masala","Salt, Sugar & Jaggery",10.0,30.0,30.0,9000.0
+P0545,Potato Chips - Simple Classic Salted,Lays,Salts,"Foodgrains, Oil & Masala","Salt, Sugar & Jaggery",5.0,7.0,24.0,840.0
+P0546,Potato Chips - Spanish Tomato Tango,Lays,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,15.2,7.5,15.2,1732.8
+P0547,Namkeen - Masala Munch,Kurkure,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,5.0,10.0,5.0,250.0
+P0548,"Snacks - Sticks, Carrot & Cumin, 2+ Years, 100% Natural & Healthy",Timios,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,5.0,12.0,5.0,300.0
+P0549,"Snacks - Rings, Tomato & Cheese, 2+ Years, 100% Natural & Healthy",Timios,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,5.5,23.4,7.3,939.5099999999999
+P0550,Mad Angles - Very Peri Peri,Bingo,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,1.0,1.0,1.0,1.0
+P0551,"Snacks - Stars, Banana & Honey, 2+ Years, 100% Natural & Healthy",Timios,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,2.0,15.0,13.0,390.0
+P0552,Potato Chips - Salted,Bingo,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,20.0,2.0,25.0,1000.0
+P0553,No Rulz Cheese Curlz Corn Puffs,Bingo,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,6.0,32.5,21.5,4192.5
+P0554,Tortilla Chips - Sweet Chili Flavour,Doritos,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,30.0,2.0,24.0,1440.0
+P0555,Rte Butter Popcorn Pp,Act Ii,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,5.0,17.0,12.0,1020.0
+P0556,Vitamin Enriched Khakhro - Peri Peri Africana,Befikar,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,6.6,15.0,6.6,653.4
+P0557,Vitamin Enriched Khakhro - Cheesy Oregano,Befikar,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,7.0,39.0,16.0,4368.0
+P0559,Namkeen - Double Mazza,Crax,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,13.4,31.1,13.4,5584.316000000001
+P0560,Namkeen - Nav Rattan,Crax,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,3.0,25.5,15.0,1147.5
+P0561,Namkeen - Aloo Bhujia,Crax,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,1.0,1.0,1.0,1.0
+P0563,Namkeen - Khatta Mitha,Crax,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,9.0,6.5,25.5,1491.75
+P0564,Ragi Bites - Epic Masala,Soulfull,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,1.5,9.0,12.0,162.0
+P0565,Namkeen - Moong Dal,Crax,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,4.5,16.0,17.0,1224.0
+P0566,Namkeen - Bikaneri Bhujia,Crax,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,5.0,20.0,15.0,1500.0
+P0567,Ragi Bites - Cra-Azy Cheese,Soulfull,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,4.0,2.0,6.0,48.0
+P0568,Naan Chips - Chatpata Pudina,Wingreens Farms,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,5.0,20.0,30.0,3000.0
+P0569,Watermelon Seeds,The Nibble Box,Nachos & Chips,Gourmet & World Food,"Snacks, Dry Fruits, Nuts",5.0,25.0,15.0,1875.0
+P0570,Mixed Fruit Jam,Kissan,Dry Fruits & Berries,Gourmet & World Food,"Snacks, Dry Fruits, Nuts",2.0,11.0,3.5,77.0
+P0571,Secret Dark Soy Sauce,Chings,"Jam, Conserve, Marmalade",Snacks & Branded Foods,"Spreads, Sauces, Ketchup",10.0,45.0,10.0,4500.0
+P0572,Secret Green Chilli Sauce,Chings,Chilli & Soya Sauce,Snacks & Branded Foods,"Spreads, Sauces, Ketchup",1.0,18.6,2.0,37.2
+P0574,Secret Red Chilli Sauce,Chings,Chilli & Soya Sauce,Snacks & Branded Foods,"Spreads, Sauces, Ketchup",1.7,4.5,14.2,108.62999999999998
+P0575,Permanent Marker Pen - Blue,Camlin,Chilli & Soya Sauce,Snacks & Branded Foods,"Spreads, Sauces, Ketchup",26.0,28.0,9.0,6552.0
+P0576,Fevikwik One Drop Instant Adhesive,Pidilite,"Pen, Pencils",Cleaning & Household,Stationery,15.0,17.5,15.0,3937.5
+P0577,Glue Stick Non Toxic - Small,Kores,"Scissor, Glue & Tape",Cleaning & Household,Stationery,8.0,47.0,28.0,10528.0
+P0578,Lassi,Amul,"Scissor, Glue & Tape",Cleaning & Household,Stationery,4.0,14.0,4.0,224.0
+P0579,Kool - Badam,Amul,Buttermilk & Lassi,"Bakery, Cakes & Dairy",Dairy,4.8,20.5,14.3,1407.12
+P0580,Daily Fresh - Dahi,Britannia,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,4.5,21.8,4.5,441.45000000000005
+P0581,Kool - Elaichi,Amul,Curd,"Bakery, Cakes & Dairy",Dairy,3.5,19.0,14.5,964.25
+P0582,Lassi,Paper Boat,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,4.9,16.5,7.0,565.95
+P0583,Rose Lassi,Cavins,Buttermilk & Lassi,"Bakery, Cakes & Dairy",Dairy,2.0,9.0,9.0,162.0
+P0584,Irish Drink Shot,Amul,Buttermilk & Lassi,"Bakery, Cakes & Dairy",Dairy,10.0,17.5,11.0,1925.0
+P0585,Fruit Yoghurt - Blueberry,Milky Mist,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,4.6,19.9,12.9,1180.866
+P0587,Kool - Thandai Flavour,Amul,Yogurt & Shrikhand,"Bakery, Cakes & Dairy",Dairy,5.7,8.8,9.1,456.456
+P0588,Dishwash Liquid,Pril,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,10.0,40.0,30.0,12000.0
+P0589,Tamarind Dishwash Liquid,Pril,Dishwash Liquids & Pastes,Cleaning & Household,Detergents & Dishwash,7.5,21.1,4.3,680.475
+P0590,Sparkling Water - Club Soda,Kinley,Dishwash Liquids & Pastes,Cleaning & Household,Detergents & Dishwash,2.0,17.5,3.0,105.0
+P0591,Club Soda - Evervess,Lehar,Soda & Cocktail Mix,Beverages,Energy & Soft Drinks,8.5,12.0,8.5,867.0
+P0592,Soft Drink,Thums Up,Soda & Cocktail Mix,Beverages,Energy & Soft Drinks,5.0,28.0,16.0,2240.0
+P0593,Glucose D,Moti'S,Cold Drinks,Beverages,Energy & Soft Drinks,44.0,88.0,47.0,181984.0
+P0594,Spyci - Masala Maar Ke,Bisleri,Sports & Energy Drinks,Beverages,Energy & Soft Drinks,8.0,6.0,8.0,384.0
+P0595,Grapes - Bangalore Blue With Seed,Fresho,Cold Drinks,Beverages,Energy & Soft Drinks,3.5,7.0,11.0,269.5
+P0596,Amaranthus - Red,Fresho,Seasonal Fruits,Fruits & Vegetables,Exotic Fruits & Veggies,14.0,2.0,5.0,140.0
+P0597,Baby Potato,Fresho,Leafy Vegetables,Fruits & Vegetables,Exotic Fruits & Veggies,4.0,10.0,4.0,160.0
+P0598,Sweet Potato - Organically Grown,Fresho,Exotic Vegetables,Fruits & Vegetables,Exotic Fruits & Veggies,6.2,16.8,6.2,645.792
+P0599,Marie Biscuits,Parle,Organic Vegetables,Fruits & Vegetables,Exotic Fruits & Veggies,2.0,17.5,10.0,350.0
+P0600,Hide & Seek Caffe Mocha Cookies,Parle,"Marie, Health, Digestive",Snacks & Branded Foods,Biscuits & Cookies,3.0,10.0,7.0,210.0
+P0601,Milano Choco Chip Cookies,Parle,Cookies,Snacks & Branded Foods,Biscuits & Cookies,1.0,14.0,9.5,133.0
+P0602,Gojju Magic Masala Powder,Mtr,Cookies,Snacks & Branded Foods,Biscuits & Cookies,4.5,16.7,4.5,338.17499999999995
+P0603,Wafers - Piri Piri,Parle,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,6.0,19.0,26.0,2964.0
+P0604,Potato Crisps - Classic Salted,Parle,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,3.5,13.0,8.5,386.75
+P0605,Wafers - Aloo Chaat,Parle,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,0.1,14.0,9.5,13.3
+P0606,Milk Shake - Vanilla,Milky Mist,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,3.0,17.0,7.0,357.0
+P0607,Milk Shake - Chocolate,Milky Mist,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,8.0,12.0,12.0,1152.0
+P0608,Milk Shake - Strawberry,Milky Mist,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,7.5,17.5,8.8,1155.0
+P0609,Muskmelon - Netted Small,Fresho,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,3.0,15.0,15.0,675.0
+P0610,Shikakai - Amla And Bhringraj,Godrej,"Kiwi, Melon, Citrus Fruit",Fruits & Vegetables,Fresh Fruits,5.0,20.0,30.0,3000.0
+P0611,Sweet Corn - Chaat Masala,Act Ii,Bathing Bars & Soaps,Beauty & Hygiene,Bath & Hand Wash,2.0,27.0,21.0,1134.0
+P0613,Sandwich Biscuits Fab - Jam In Fruit Flavour,Parle,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,12.0,3.0,9.0,324.0
+P0614,Capsicum - Diced,Fresho,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,6.8,16.5,10.0,1122.0
+P0615,Banana Flower,Fresho,Cut & Peeled Veggies,Fruits & Vegetables,Fresh Vegetables,7.0,12.5,7.0,612.5
+P0616,Pav Bhaji Masala,Bb Royal,"Banana, Sapota & Papaya",Fruits & Vegetables,Fresh Fruits,6.0,9.5,7.5,427.5
+P0617,Chicken Tandoori Masala,Bb Royal,Powdered Spices,"Foodgrains, Oil & Masala",Masalas & Spices,,,,
+P0618,Meat/Mutton Masala,Bb Royal,Powdered Spices,"Foodgrains, Oil & Masala",Masalas & Spices,4.0,14.0,14.0,784.0
+P0619,Chicken Masala,Bb Royal,Powdered Spices,"Foodgrains, Oil & Masala",Masalas & Spices,5.0,28.0,16.0,2240.0
+P0620,Channa Masala,Bb Royal,Powdered Spices,"Foodgrains, Oil & Masala",Masalas & Spices,12.0,4.0,5.0,240.0
+P0621,Kitchen King Masala,Bb Royal,Powdered Spices,"Foodgrains, Oil & Masala",Masalas & Spices,100.0,160.0,100.0,1600000.0
+P0622,Jeera Kadu/Bitter Cumin,Bb Royal,Powdered Spices,"Foodgrains, Oil & Masala",Masalas & Spices,3.0,26.5,17.0,1351.5
+P0623,Powder - Tamarind Rice,Annapoorna,Whole Spices,"Foodgrains, Oil & Masala",Masalas & Spices,8.2,8.2,8.2,551.3679999999999
+P0625,Capsicum - Diced,Fresho,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,4.0,4.0,36.5,584.0
+P0626,Flavoured Milk - Pista,Nandini,Cut & Peeled Veggies,Fruits & Vegetables,Cuts & Sprouts,8.0,10.0,8.0,640.0
+P0627,3 Layer Gum - Sugarfreee Strawberry Flavour,Center Fresh,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,1.0,1.0,1.0,1.0
+P0628,3 Layer Gum - Sugarfreee Peppermint Flavour,Center Fresh,"Toffee, Candy & Lollypop",Snacks & Branded Foods,Chocolates & Candies,3.0,18.0,7.0,378.0
+P0629,Methi/Menthya Dana - Whole,Catch,"Toffee, Candy & Lollypop",Snacks & Branded Foods,Chocolates & Candies,5.7,17.5,5.7,568.575
+P0630,Rai - Whole,Catch,Whole Spices,"Foodgrains, Oil & Masala",Masalas & Spices,,,,
+P0631,Purepet Wet Cat Food - Real Tuna And Chicken Liver In Gravy,Purepet,Whole Spices,"Foodgrains, Oil & Masala",Masalas & Spices,6.0,12.0,6.0,432.0
+P0632,Wet Dog Food - Chicken & Vegetable Chunks In Gravy,Purepet,Pet Meals & Treats,"Kitchen, Garden & Pets",Pet Food & Accessories,36.5,38.0,57.0,79059.0
+P0633,Haldi Doodh Shot,Amul,Pet Meals & Treats,"Kitchen, Garden & Pets",Pet Food & Accessories,6.0,14.0,6.0,504.0
+P0634,Star Anise Doodh Shot,Amul,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,15.0,15.0,40.0,9000.0
+P0635,Honey Doodh Shot,Amul,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,1.0,21.0,11.0,231.0
+P0636,"Namkeen - Chow Chow, Special",Sln,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,5.0,5.0,21.5,537.5
+P0637,7 O Click - Permasharp Stainless Blade,Gillette,Namkeen & Savoury Snacks,Snacks & Branded Foods,Snacks & Namkeen,5.0,25.0,9.0,1125.0
+P0638,Powder - Sambar,Sakthi,Shaving Care,Beauty & Hygiene,Men'S Grooming,9.0,24.0,18.0,3888.0
+P0639,Drumstick/Moringa,Fresho,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,4.6,21.5,14.2,1404.3799999999999
+P0640,Fruity Soap Enriched With Narural Lemon Extract,Harmony,"Gourd, Pumpkin, Drumstick",Fruits & Vegetables,Fresh Vegetables,7.0,7.0,7.0,343.0
+P0641,Fruity Soap Enriched With Narural Lime Extract,Harmony,Bathing Bars & Soaps,Beauty & Hygiene,Bath & Hand Wash,1.0,17.0,8.0,136.0
+P0642,Bath Soap - Fruity Orange Flavour,Harmony,Bathing Bars & Soaps,Beauty & Hygiene,Bath & Hand Wash,7.0,7.5,20.0,1050.0
+P0643,Honey Oats Cookies,Tasties,Bathing Bars & Soaps,Beauty & Hygiene,Bath & Hand Wash,2.0,18.0,12.0,432.0
+P0644,"Banana - Raw, Organically Grown",Fresho,Cookies,Snacks & Branded Foods,Biscuits & Cookies,62.0,89.0,57.0,314526.0
+P0645,Bottle Gourd - Organically Grown,Fresho,Organic Vegetables,Fruits & Vegetables,Fresh Vegetables,4.0,38.0,38.0,5776.0
+P0646,Radish - Organically Grown,Fresho,Organic Vegetables,Fruits & Vegetables,Fresh Vegetables,4.5,19.0,29.5,2522.25
+P0647,"Brinjal - Green, Round",Fresho,Organic Vegetables,Fruits & Vegetables,Fresh Vegetables,5.0,19.0,13.0,1235.0
+P0649,Ready To Cook - Potato French Fries,Fresho,"Beans, Brinjals & Okra",Fruits & Vegetables,Fresh Vegetables,1.0,23.0,10.0,230.0
+P0651,Onion - Thin Sliced,Fresho,Cut & Peeled Veggies,Fruits & Vegetables,Fresh Vegetables,5.9,24.5,6.4,925.1200000000001
+P0652,Tomato - Diced,Fresho,Cut & Peeled Veggies,Fruits & Vegetables,Fresh Vegetables,15.5,5.4,6.5,544.0500000000001
+P0654,Masala - Fish Curry,Annapoorna,Cut & Peeled Veggies,Fruits & Vegetables,Fresh Vegetables,6.0,18.5,11.5,1276.5
+P0655,Instant Pasta - Tomato Salsa,Weikfield,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,26.3,45.7,29.3,35215.963
+P0656,"Banana - Raw, Organically Grown",Fresho,Instant Pasta,Snacks & Branded Foods,"Noodle, Pasta, Vermicelli",3.0,21.0,21.0,1323.0
+P0657,Bottle Gourd - Organically Grown,Fresho,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,3.0,11.5,16.5,569.25
+P0658,Radish - Organically Grown,Fresho,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,13.5,20.0,21.0,5670.0
+P0659,Baking Powder,Weikfield,Organic Vegetables,Fruits & Vegetables,Organic Fruits & Vegetables,5.0,18.5,9.0,832.5
+P0660,Sauce - Hot And Sweet Tomato Chilli,Maggi,Home Baking,Snacks & Branded Foods,Ready To Cook & Eat,6.5,7.5,13.0,633.75
+P0661,Binder Clip - 19Mm,Ravi Agencies,Tomato Ketchup & Sauces,Snacks & Branded Foods,"Spreads, Sauces, Ketchup",1.0,12.0,8.4,100.80000000000001
+P0662,Organic Sprouts Mixed Gram,Fresho,"Notebooks, Files, Folders",Cleaning & Household,Stationery,22.0,3.5,22.0,1694.0
+P0663,Ready To Cook - Potato French Fries,Fresho,Fresh Salads & Sprouts,Fruits & Vegetables,Cuts & Sprouts,5.3,13.4,5.3,376.40599999999995
+P0664,Organic Sprouts Channa Brown,Fresho,Cut & Peeled Veggies,Fruits & Vegetables,Cuts & Sprouts,4.0,4.0,15.0,240.0
+P0665,Potato - Wedges,Fresho,Fresh Salads & Sprouts,Fruits & Vegetables,Cuts & Sprouts,6.5,13.6,6.5,574.5999999999999
+P0666,Onion - Thin Sliced,Fresho,Cut & Peeled Veggies,Fruits & Vegetables,Cuts & Sprouts,28.0,10.5,12.0,3528.0
+P0667,Chutney Mix,Fresho,Cut & Peeled Veggies,Fruits & Vegetables,Cuts & Sprouts,2.0,12.4,7.7,190.96
+P0668,Tomato - Diced,Fresho,Recipe Packs,Fruits & Vegetables,Cuts & Sprouts,2.0,27.0,21.0,1134.0
+P0669,Butterscotch Milkshake,Amul,Cut & Peeled Veggies,Fruits & Vegetables,Cuts & Sprouts,5.0,28.0,16.0,2240.0
+P0670,Ginger Doodh Shot,Amul,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,3.8,15.5,3.8,223.82
+P0671,Tulsi Doodh Shot,Amul,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,7.4,10.8,7.4,591.4080000000001
+P0672,Potato - Wedges,Fresho,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,8.0,13.0,8.0,832.0
+P0673,Sanitary Pads,Comfy Snug Fit,Cut & Peeled Veggies,Fruits & Vegetables,Exotic Fruits & Veggies,8.0,18.0,10.0,1440.0
+P0674,Bake Rusk Toast,Britannia,Sanitary Napkins,Beauty & Hygiene,Feminine Hygiene,12.0,10.5,8.2,1033.1999999999998
+P0675,Gulabari Premium Rose Water - Paraben Free Skin Toner,Dabur,Rusks,"Bakery, Cakes & Dairy","Cookies, Rusk & Khari",6.5,26.0,13.0,2197.0
+P0676,Hand Sanitizer,Godrej Protekt,Face Care,Beauty & Hygiene,Skin Care,2.0,2.0,44.5,178.0
+P0678,Wafers - Waffy (Vanilla Flavor),Dukes,Hand Wash & Sanitizers,Beauty & Hygiene,Bath & Hand Wash,1.5,12.0,7.5,135.0
+P0679,Cookies - Butter,Unibic,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,16.0,19.5,16.0,4992.0
+P0680,Wafers - Waffy (Strawberry Flavor),Dukes,Cookies,Snacks & Branded Foods,Biscuits & Cookies,9.5,20.0,14.0,2660.0
+P0681,Cookies - Choconut,Unibic,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,5.5,23.8,7.5,981.75
+P0682,Wafers - Waffy (Orange Flavor),Dukes,Cookies,Snacks & Branded Foods,Biscuits & Cookies,5.0,16.0,5.0,400.0
+P0683,Wafers - Waffy (Pineapple Flavor),Dukes,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,1.0,29.5,21.0,619.5
+P0684,Treat Wafers - Chocolate,Britannia,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,15.0,55.0,32.0,26400.0
+P0685,Treat Wafers - Strawberry,Britannia,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,3.0,26.5,17.0,1351.5
+P0687,Waffy Cheese Flavor Wafer,Dukes,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,5.0,15.2,9.9,752.4
+P0688,Wafers - Waffy (Chocolate Flavor),Dukes,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,1.0,23.0,7.5,172.5
+P0689,"Wafers - Waffy, Golden Cream",Dukes,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,9.2,27.4,11.5,2898.9199999999996
+P0690,Corn Flour,Puramate,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,9.0,5.5,9.0,445.5
+P0691,Hair Gel Super Hold,Vi-John,Flours & Pre-Mixes,Gourmet & World Food,Cooking & Baking Needs,1.0,20.0,30.0,600.0
+P0692,Hair Gel Vertical Hold,Vi-John,Hair Care & Styling,Beauty & Hygiene,Men'S Grooming,3.5,4.0,11.5,161.0
+P0693,Hair Gel Cool Hold,Vi-John,Hair Care & Styling,Beauty & Hygiene,Men'S Grooming,6.0,33.0,10.5,2079.0
+P0694,Hair Gel Regular Hold,Vi-John,Hair Care & Styling,Beauty & Hygiene,Men'S Grooming,11.0,16.0,16.0,2816.0
+P0695,Subhmangal Semi Economy Box - Fg00825,Shalimar,Hair Care & Styling,Beauty & Hygiene,Men'S Grooming,2.0,10.0,20.0,400.0
+P0696,Microwave Popcorn - Butter,Act Ii,"Agarbatti, Incense Sticks",Cleaning & Household,Pooja Needs,4.6,10.3,4.8,227.424
+P0697,Sterilised Double Toned Flavored Milk - Strawberry,Thirumala,Chips & Corn Snacks,Snacks & Branded Foods,Snacks & Namkeen,8.0,16.0,10.0,1280.0
+P0698,Pineapple 100% Fruit Juice - No Added Sugar,Storia,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,11.1,11.1,11.1,1367.6309999999999
+P0699,Green Mango 100% Fruit Juice - No Added Sugar,Storia,Juices,Beverages,Fruit Juices & Drinks,2.0,20.0,15.0,600.0
+P0700,Banana - Robusta,Fresho,Juices,Beverages,Fruit Juices & Drinks,40.0,100.0,50.0,200000.0
+P0701,Masala 2 Minute Instant Noodles,Maggi,"Banana, Sapota & Papaya",Fruits & Vegetables,Fresh Fruits,4.5,18.5,8.5,707.625
+P0702,"Battery - Hyper, D, 1U, Hyper, Heavy Duty",Nippo,Instant Noodles,Snacks & Branded Foods,"Noodle, Pasta, Vermicelli",4.5,7.0,7.0,220.5
+P0703,Brinjal - Bottle Shape,Fresho,Battery & Electrical,"Kitchen, Garden & Pets",Appliances & Electricals,26.0,26.0,26.0,17576.0
+P0704,Sambhar Onion (Small Onion),Fresho,"Beans, Brinjals & Okra",Fruits & Vegetables,Fresh Vegetables,6.0,20.0,13.0,1560.0
+P0705,Cabbage - Red,Fresho,"Potato, Onion & Tomato",Fruits & Vegetables,Fresh Vegetables,4.6,23.3,8.6,921.7479999999999
+P0706,Coriander Leaves - Chopped,Fresho,Cabbage & Cauliflower,Fruits & Vegetables,Fresh Vegetables,1.0,10.0,10.0,100.0
+P0707,Coccinia - Julienne,Fresho,Cut & Peeled Veggies,Fruits & Vegetables,Fresh Vegetables,4.3,13.5,4.3,249.61499999999998
+P0708,Coccinia - Sliced,Fresho,Cut & Peeled Veggies,Fruits & Vegetables,Fresh Vegetables,5.0,15.0,10.0,750.0
+P0709,Red Cabbage - Grated,Fresho,Cut & Peeled Veggies,Fruits & Vegetables,Fresh Vegetables,6.0,21.0,11.0,1386.0
+P0710,Green Salad,Fresho,Cut & Peeled Veggies,Fruits & Vegetables,Fresh Vegetables,,,,
+P0711,"Organic, Fennel /Saunf/Sompu Powder",Bb Royal,Fresh Salads & Sprouts,Fruits & Vegetables,Fresh Vegetables,2.5,18.0,8.0,360.0
+P0712,Ready Mix - Chettinad Kara Kulambu,Annapoorna,Organic Masalas & Spices,"Foodgrains, Oil & Masala",Masalas & Spices,3.7,4.5,16.7,278.055
+P0713,Cheese Macaroni Pazzta,Maggi,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,5.0,16.0,7.0,560.0
+P0714,"Organic, Fennel /Saunf/Sompu Powder",Bb Royal,Instant Pasta,Snacks & Branded Foods,"Noodle, Pasta, Vermicelli",15.0,15.0,8.0,1800.0
+P0715,"Hommade Tomato Puree - Made From 100% Ripe Tomatoes, No Added Preservatives",Dabur,Organic Masalas & Spices,"Foodgrains, Oil & Masala",Organic Staples,7.0,13.0,7.0,637.0
+P0716,Baby Corn - Peeled,Fresho,Tomato Ketchup & Sauces,Snacks & Branded Foods,"Spreads, Sauces, Ketchup",12.7,6.5,21.0,1733.55
+P0718,Coriander Leaves - Chopped,Fresho,Cut & Peeled Veggies,Fruits & Vegetables,Cuts & Sprouts,5.0,18.0,10.0,900.0
+P0719,Coccinia - Julienne,Fresho,Cut & Peeled Veggies,Fruits & Vegetables,Cuts & Sprouts,6.0,17.0,6.0,612.0
+P0720,Coccinia - Sliced,Fresho,Cut & Peeled Veggies,Fruits & Vegetables,Cuts & Sprouts,47.8,80.0,47.8,182787.19999999998
+P0721,Red Cabbage - Grated,Fresho,Cut & Peeled Veggies,Fruits & Vegetables,Cuts & Sprouts,1.5,25.0,12.5,468.75
+P0722,Green Salad,Fresho,Cut & Peeled Veggies,Fruits & Vegetables,Cuts & Sprouts,5.0,7.0,5.0,175.0
+P0724,Accel Detergent Cake,Ponvandu,Fresh Salads & Sprouts,Fruits & Vegetables,Cuts & Sprouts,6.0,24.0,10.0,1440.0
+P0725,Baby Corn - Peeled,Fresho,Detergent Bars,Cleaning & Household,Detergents & Dishwash,,,,
+P0726,Cabbage - Red,Fresho,Cut & Peeled Veggies,Fruits & Vegetables,Exotic Fruits & Veggies,1.0,15.0,10.0,150.0
+P0727,Coriander Powder,Orika,Cabbage & Cauliflower,Fruits & Vegetables,Exotic Fruits & Veggies,,,,
+P0728,Toned Milk,Nandini,Powdered Spices,"Foodgrains, Oil & Masala",Masalas & Spices,3.0,4.0,4.0,48.0
+P0729,Masala - Fish Curry,Aachi,Milk,"Bakery, Cakes & Dairy",Dairy,19.0,23.0,20.0,8740.0
+P0730,Masala - Fish Fry,Aachi,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,4.8,21.2,8.9,905.664
+P0731,Corn Twist - Pizza,Makino,Blended Masalas,"Foodgrains, Oil & Masala",Masalas & Spices,8.0,18.0,8.0,1152.0
+P0732,Winkin' Cow Vanillicious Thick Milkshake,Britannia,"Healthy, Baked Snacks",Gourmet & World Food,"Snacks, Dry Fruits, Nuts",4.5,18.2,4.5,368.54999999999995
+P0733,Kitkat Chocolate Wafer Bar - 4 Fingers Pack,Nestle,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,2.0,4.0,9.0,72.0
+P0735,Kitkat Chocolate Wafer Bar - 4 Fingers Pack,Nestle,Chocolates,Snacks & Branded Foods,Biscuits & Cookies,5.0,22.5,6.1,686.25
+P0736,Organic Seeds - Black Mustard/Sasive,Organic Tattva,Chocolates,Snacks & Branded Foods,Chocolates & Candies,70.0,165.0,36.0,415800.0
+P0737,Organic Seeds - Brown Mustard/Sasive,Organic Tattva,Organic Masalas & Spices,"Foodgrains, Oil & Masala",Organic Staples,2.0,25.0,9.0,450.0
+P0738,Fevicol Mr Angular Tip,Pidilite,Organic Masalas & Spices,"Foodgrains, Oil & Masala",Organic Staples,3.5,8.5,3.5,104.125
+P0739,Haldi Milk,Mother Dairy,"Scissor, Glue & Tape",Cleaning & Household,Stationery,8.5,9.0,8.5,650.25
+P0740,Sterilised Double Toned Flavored Milk - Pista,Thirumala,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,1.0,20.0,10.0,200.0
+P0741,Dark Fantasy - Choco Fills Biscuits - Cookies,Sunfeast,"Flavoured, Soya Milk","Bakery, Cakes & Dairy",Dairy,3.8,16.4,9.5,592.04
+P0742,Coke Zero Soft Drink - No Sugar,Coca-Cola,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,6.4,7.0,6.4,286.72
+P0744,Bleaching Powder - Strong,Zermisol,Cold Drinks,Beverages,Energy & Soft Drinks,2.0,7.0,7.0,98.0
+P0745,Cornflour,Weikfield,Floor & Other Cleaners,Cleaning & Household,All Purpose Cleaners,,,,
+P0746,Haldi Chandan Soap,Jiva Ayurveda,Rice & Other Flours,"Foodgrains, Oil & Masala","Atta, Flours & Sooji",1.0,1.0,1.0,1.0
+P0747,Pure Magic Deuce Vanilla Biscuits,Britannia,Bathing Bars & Soaps,Beauty & Hygiene,Bath & Hand Wash,23.0,23.0,33.3,17615.699999999997
+P0748,,,Cream Biscuits & Wafers,Snacks & Branded Foods,Biscuits & Cookies,3.8,4.8,15.3,279.072
